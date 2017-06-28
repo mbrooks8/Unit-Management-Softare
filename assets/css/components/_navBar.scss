@@ -11,7 +11,8 @@ nav {
 	width: 100%;
 	//Logo
 	.logo{
-		position:absolute;
+		/*position:absolute;*/
+		float:left;
 		color: $nav-text-color;
 		display: inline-block;
 		padding: 0;
@@ -31,8 +32,8 @@ nav {
 		}
 
 		@media #{$medium-and-down} {
-			left: 50%;
-			transform: translateX(-50%);
+/*			left: 50%;
+			transform: translateX(-50%);*/
 
 			&.left, &.right {
 				padding: 0;
@@ -54,7 +55,7 @@ nav {
 	ul{
 		margin:0px;
 		float:right;
-
+padding-left:30px;
 		li{
 			height: 64px;
 			display: flex;

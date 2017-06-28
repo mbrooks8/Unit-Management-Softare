@@ -2604,7 +2604,8 @@ nav {
   		}
   	}*/ }
   nav .logo {
-    position: absolute;
+    /*position:absolute;*/
+    float: left;
     color: #94A0A9;
     display: inline-block;
     padding: 0;
@@ -2620,8 +2621,8 @@ nav {
       transform: translateX(-50%); }
     @media only screen and (max-width: 992px) {
       nav .logo {
-        left: 50%;
-        transform: translateX(-50%); }
+        /*			left: 50%;
+        			transform: translateX(-50%);*/ }
         nav .logo.left, nav .logo.right {
           padding: 0;
           transform: none; }
@@ -2635,7 +2636,8 @@ nav {
       padding: 0; }
   nav ul {
     margin: 0px;
-    float: right; }
+    float: right;
+    padding-left: 30px; }
     nav ul li {
       height: 64px;
       display: flex;
