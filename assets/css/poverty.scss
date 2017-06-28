@@ -11,18 +11,18 @@ $roboto-font-path:"../fonts/roboto/";
 // Colors
 // ==========================================================================
 
-$primary-color: #f76058 !default;
+$primary-color: #00CC99 !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: #f1a203 !default;
+$secondary-color: #2EA2FF !default;
 
-$accent-color: #9bbf67 !default;
-$success-color: #00A490 !default;
+$accent-color: #43D4FF !default;
+$success-color: #00CC99 !default;
 $error-color: #EF4B23 !default;
 $link-color: $primary-color !default;
 
-$primary-text-color: color("shades", "black") !default;
+$primary-text-color: #9BA7AF !default;
 
 // ==========================================================================
 // Media Query Ranges
@@ -61,11 +61,11 @@ $h6-fontsize: 1.2rem !default;
 //NavBar
 // ==========================================================================
 $nav-height:64px !default;
-$nav-color:$primary-color;
-$nav-text-color:color("shades", "black") !default;
-$nav-text-color-dark:#30D2AB !default;
-$nav-text-size: 1.25rem !default;
-$nav-logo-text-size: 2.1rem !default;
+$nav-color:#FFFFFF;
+$nav-text-color:#94A0A9 !default;
+$nav-text-color-dark:#9BA7AF !default;
+$nav-text-size: 1rem !default;
+$nav-logo-text-size: 1.8rem !default;
 // ==========================================================================
 //SideNavBar
 // ==========================================================================

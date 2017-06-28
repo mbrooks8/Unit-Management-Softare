@@ -34,8 +34,16 @@
             <!--Top Navigation Bar-->
             <nav class="">
                 <div class="nav-wrapper">
-                    <a href="./index" class="logo"><img src="../assets/img/logo.png" style="padding-right:10px;">LOGO</a>
-                    <ul class="right hide-on-med-and-down">
+                    <a href="./index" class="logo"><img src="./assets/img/logo.png" style="height:100%;"></a>
+<!--                    <ul class="left hide-on-med-and-down">
+                        <li><a href="./index">Home</a></li>
+                        <li><a href="./profile">My Profile</a></li>
+                        <li><a href="./students">Students</a></li>
+                        <li><a href="./attendance">Attendance</a></li>
+                        <li><a href="./coaches">Coaches</a></li>
+                        <li><a href="../db/logout">Logout</a></li>
+                    </ul>-->
+                     <ul class="right hide-on-med-and-down">
                         <li><a href="./index">Home</a></li>
                         <li><a href="./profile">My Profile</a></li>
                         <li><a href="./students">Students</a></li>
