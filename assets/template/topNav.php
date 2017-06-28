@@ -26,7 +26,7 @@
 					<li><a href="./pricing">Pricing</a></li>
 					<li><a href="./resources">Resources</a></li>
 					<li><a href="./about">About</a></li>
-					<li><a href="./database/logout">Logout</a></li>
+					<li><a href="./database/login">Log In</a></li>
 				</ul>
 			</div>
 		</div>
@@ -43,16 +43,11 @@
 						<li><a href="./pricing">Pricing</a></li>
 						<li><a href="./resources">Resources</a></li>
 						<li><a href="./about">About</a></li>
-						<li><a href="./database/logout">Logout</a></li>
 					</ul>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="./products">Products</a></li>
-						<li><a href="./solutions">Solutions</a></li>
-						<li><a href="./customers">Customers</a></li>
-						<li><a href="./pricing">Pricing</a></li>
-						<li><a href="./resources">Resources</a></li>
-						<li><a href="./about">About</a></li>
-						<li><a href="./database/logout">Logout</a></li>
+						<li><a href="./database/login">Log In</a></li>
+						<!--this should be a modal or it could be a page idk-->
+						<li><a href="./demo" class="button raised border">Request a Demo</a></li>
 					</ul>
 					<ul class="right hide-on-large-only">
 						<li><a class="sideToggle"><i class="fa fa-bars blue-text" aria-hidden="true"></i></a></li>
