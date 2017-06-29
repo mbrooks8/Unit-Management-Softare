@@ -1,0 +1,11 @@
+Header add Access-Control-Allow-Origin "*" 
+
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+
+# Remove the need for the php file extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+Options -Indexes
