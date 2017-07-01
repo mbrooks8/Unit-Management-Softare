@@ -2135,8 +2135,7 @@ a {
 .container {
   transition: all 0.2s ease;
   width: 90%;
-  margin: 0 auto;
-  max-width: 1280px; }
+  margin: 0 auto; }
   .container .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem; }
@@ -2147,12 +2146,12 @@ a {
   .container {
     width: 80%; }
     .container.large {
-      width: 95%; } }
+      width: 90%; } }
 @media only screen and (min-width: 993px) {
   .container {
     width: 60%; }
     .container.large {
-      width: 95%; } }
+      width: 90%; } }
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -2473,6 +2472,9 @@ small {
 
 .primary {
   color: #00CC99 !important; }
+
+.error {
+  color: #EF4B23 !important; }
 
 i {
   color: black; }
