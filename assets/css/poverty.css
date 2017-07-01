@@ -2111,6 +2111,27 @@ a {
   .show-on-med-and-down {
     display: block !important; } }
 
+.navContainer {
+  transition: all 0.2s ease;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px; }
+  .navContainer .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem; }
+  .navContainer .large {
+    width: 90%; }
+
+@media only screen and (min-width: 601px) {
+  .navContainer {
+    width: 80%; }
+    .navContainer .large {
+      width: 95%; } }
+@media only screen and (min-width: 993px) {
+  .navContainer {
+    width: 60%; }
+    .navContainer .large {
+      width: 95%; } }
 .container {
   transition: all 0.2s ease;
   width: 90%;
@@ -2125,15 +2146,13 @@ a {
 @media only screen and (min-width: 601px) {
   .container {
     width: 80%; }
-
-  .large {
-    width: 95%; } }
+    .container .large {
+      width: 95%; } }
 @media only screen and (min-width: 993px) {
   .container {
     width: 60%; }
-
-  .large {
-    width: 95%; } }
+    .container .large {
+      width: 95%; } }
 .row {
   margin-left: auto;
   margin-right: auto;
