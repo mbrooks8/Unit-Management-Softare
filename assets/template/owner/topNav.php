@@ -54,19 +54,40 @@
 							</a>
 						</li>
 
-						<li><a href="./people" title="Tenants"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+						<li>
+							<a href="./people" title="Tenants">
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span class="badge" >1</span>
+							</a>
+						</li>
+						<li>
+							<a href="./applications" title="Applications">
+								<i class="fa fa-id-card" aria-hidden="true"></i>
+								<span class="badge" >17</span>
+							</a>
+						</li>
 
-						<li><a href="./email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 
 						<gg class="hide-on-small-only">
 
 							<li><h4>|</h4></li>
-
-							<li><a href="./calendar" title="Calendar"><i class="fa fa-calendar" aria-hidden="true"></i></a></li>
-
-							<li><a href="./messages" title="Messages"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
-
-							<li><a href="./applications" title="Applications"><i class="fa fa-id-card" aria-hidden="true"></i></a></li>
+							<!--calendar-->
+							<li>
+								<a href="./calendar" title="Calendar">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+								</a>
+							</li>
+							<!--Message area-->
+							<li>
+								<a href="./messages" title="Messages">
+									<i class="fa fa-comments" aria-hidden="true"></i>
+								</a>
+							</li>
+							<!--send invoice / emails-->
+							<li><a href="./email" title="Email">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								</a>
+							</li>
 
 						</gg>
 					</ul>

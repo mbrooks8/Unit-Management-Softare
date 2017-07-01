@@ -1,18 +1,17 @@
 // Badges
 span.badge {
 	min-width: 1rem;
-	font-weight: 300;
 	text-align: center;
 	font-size: 0.8rem;
 	line-height: $badge-height;
 	height: $badge-height;
-	color: color('grey', 'darken-1');
 	float: right;
 	box-sizing: border-box;
-	color:white;
 	background-color: $badge-bg-color;
 	border-radius: 2px;
 	color: #fff;
+	padding:0 2px;
+	z-index:2;
 
 	&[badgeText]::after {
 		content: " " attr(badgeText);
@@ -20,6 +19,8 @@ span.badge {
 }
 nav ul a span.badge {
 	display: inline-block;
-	float: none;
+	margin-left:-5px;
+	position:relative;
+	margin-top: calc(#{$nav-height / 2} - #{$badge-height});
 
 }
