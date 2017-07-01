@@ -2614,10 +2614,16 @@ nav {
     nav .logo.right {
       right: 0.5rem;
       padding: 0; }
+  @media only screen and (min-width: 601px) {
+    nav ul {
+      padding-left: 30px; } }
+  @media only screen and (min-width: 993px) {
+    nav ul {
+      padding-left: 30px; } }
   nav ul {
     margin: 0px;
     float: right;
-    padding-left: 30px; }
+    padding-left: 0px; }
     nav ul li {
       height: 64px;
       display: flex;

@@ -55,10 +55,22 @@ nav {
 			padding: 0;
 		}
 	}
+	@media #{$medium-and-up} {
+		ul{
+			padding-left:30px;
+		}
+
+	}
+	@media #{$large-and-up} {
+		ul{
+			padding-left:30px;
+		}
+
+	}
 	ul{
 		margin:0px;
 		float:right;
-		padding-left:30px;
+		padding-left:0px;
 		li{
 			height: 64px;
 			display: flex;
