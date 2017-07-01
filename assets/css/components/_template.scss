@@ -111,16 +111,25 @@ a {
 		margin-left: -1 * $gutter-width / 2;
 		margin-right: -1 * $gutter-width / 2;
 	}
+	.large{
+		width:90%;
+	}
 }
 
 @media #{$medium-and-up} {
 	.container {
 		width: 80%;
 	}
+	.large{
+		width:95%;
+	}
 }
 @media #{$large-and-up} {
 	.container {
 		width: 60%;
+	}
+	.large{
+		width:90%;
 	}
 }
 .row {

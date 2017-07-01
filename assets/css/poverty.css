@@ -2119,13 +2119,21 @@ a {
   .container .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem; }
+  .container .large {
+    width: 90%; }
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 80%; } }
+    width: 80%; }
+
+  .large {
+    width: 95%; } }
 @media only screen and (min-width: 993px) {
   .container {
-    width: 60%; } }
+    width: 60%; }
+
+  .large {
+    width: 90%; } }
 .row {
   margin-left: auto;
   margin-right: auto;
