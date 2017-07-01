@@ -152,7 +152,8 @@ a {
 @media #{$medium-and-up} {
 	.container {
 		width: 80%;
-		.large{
+
+		&.large{
 			width:95%;
 		}
 	}
@@ -161,7 +162,8 @@ a {
 @media #{$large-and-up} {
 	.container {
 		width: 60%;
-		.large{
+
+		&.large{
 			width:95%;
 		}
 	}
