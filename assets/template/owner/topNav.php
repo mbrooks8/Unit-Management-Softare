@@ -45,7 +45,15 @@
 					<a href="./index" class="logo hide-on-small-only hide-on-large-only"><img src="../assets/img/logo.svg" style="height:100%;"></a>
 					<a href="./index" class="logo hide-on-med-and-down"><img src="../assets/img/logoText.svg" style="height:100%;"></a>
 					<ul class="left">
-						<li><a href="./index" title="Dashboard"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
+						<li><a href="./index" title="Back">
+							<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li><a href="./dashboard" title="Dashboard">
+							<i class="fa fa-tachometer" aria-hidden="true"></i>
+							</a>
+						</li>
 
 						<li>
 							<a href="./issues" title="Tenant's Issues">
