@@ -142,7 +142,6 @@ $placeholder-text-color: lighten($input-border-color, 20%) !default;
 // ==========================================================================
 // Responsive-img
 // ==========================================================================
-
 $range : $large-screen - $small-screen !default;
 $intervals: 20 !default;
 $interval-size: $range / $intervals !default;
