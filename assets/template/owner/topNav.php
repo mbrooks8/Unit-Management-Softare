@@ -32,8 +32,8 @@
 		<div class="site-content" style="" >
 			<!--Top Navigation Bar-->
 			<nav class="">
-				<div class="nav-wrapper">
-					<a href="./index" class="logo"><img src="../assets/img/logo.png" style="height:100%;"></a>
+				<div style="width:100%;">
+					<a href="./index" class="logo"><img src="../assets/img/logo.svg" style="height:100%;"></a>
 					<ul class="left hide-on-med-and-down">
 						<li><a href="./index"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
 						<li><a href="./tasks"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
@@ -41,12 +41,12 @@
 						<li><a href="./email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 					</ul>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="../database/login">Log In</a></li>
-						<!--this should be a modal or it could be a page idk-->
-						<li><a href="../demo" class="button raised border">Request a Demo</a></li>
+						<li><a href="./alerts"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+						<li><a href="./call"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+						<li><a href="./profile"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
 					</ul>
 					<ul class="right hide-on-large-only">
-						<li><a class="sideToggle"><i class="fa fa-bars blue-text" aria-hidden="true"></i></a></li>
+						<li><a class="sideToggle"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
 
 					</ul>
 				</div>
