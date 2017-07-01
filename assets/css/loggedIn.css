@@ -1907,6 +1907,37 @@ td,
 th {
   padding: 0; }
 
+span.badge {
+  min-width: 3rem;
+  margin-left: 14px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 18px;
+  height: 18px;
+  color: #757575;
+  float: right;
+  box-sizing: border-box;
+  color: white;
+  background-color: #007de1; }
+  span.badge.new {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #2EA2FF;
+    border-radius: 2px; }
+  span.badge.new:after {
+    content: " new"; }
+  span.badge[badgeText]::after {
+    content: " " attr(badgeText); }
+
+nav ul a span.badge {
+  display: inline-block;
+  float: none;
+  border-radius: 8px;
+  margin-left: 4px;
+  line-height: 18px;
+  height: 18px; }
+
 .shittyBanner {
   width: 40%;
   padding: 30px;
