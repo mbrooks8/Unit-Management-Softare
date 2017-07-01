@@ -61,6 +61,7 @@ $h6-fontsize: 1.2rem !default;
 //NavBar
 // ==========================================================================
 //Top Nav
+=======
 $nav-height:64px !default;
 $nav-color:#333333;
 $nav-text-color:#FFFFFF !default;
@@ -134,7 +135,6 @@ $input-transition: all .3s !default;
 $label-font-size: .8rem !default;
 $input-invalid-border: 1px solid $input-error-color !default;
 $placeholder-text-color: lighten($input-border-color, 20%) !default;
-
 // ==========================================================================
 // Icons
 // ==========================================================================
@@ -161,6 +161,7 @@ $badge-height: 18px !default;
 // Stolen reset scss;
 @import "components/reset";
 // components;
+
 @import "components/badge";
 @import "components/banner";
 @import "components/template";
