@@ -31,8 +31,19 @@
 
 		<div class="site-content" style="" >
 			<!--Top Navigation Bar-->
+			<style>
+				.navSearch{
+					border-radius:8px;
+					padding:10px 10px 10px 10px;
+					border:0;
+				}
+				.navSearch:focus{
+					box-shadow:0;
+					outline:0;
+				}
+			</style>
 			<nav class="">
-				<div style="width:100%;">
+				<div style="width:90%;">
 					<a href="./index" class="logo"><img src="../assets/img/logo.svg" style="height:100%;"></a>
 					<ul class="left hide-on-med-and-down">
 						<li><a href="./index"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
@@ -43,6 +54,7 @@
 					<ul class="right hide-on-med-and-down">
 						<li><a href="./alerts"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
 						<li><a href="./call"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+						<li><input placeholder="Search..." class="navSearch"></li>
 						<li><a href="./profile"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
 					</ul>
 					<ul class="right hide-on-large-only">
