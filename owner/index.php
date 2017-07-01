@@ -8,7 +8,7 @@ include("../assets/template/owner/topNav.php");
 	<br>
 	<div class="row">
 		<!--Contacts-->
-		<div class="col s12 m4 l2 hide-on-med-and-down">
+		<div class="col s12 m12 l2">
 			<p class="black-text">Contacts</p>
 			<br>
 			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
@@ -154,22 +154,6 @@ include("../assets/template/owner/topNav.php");
 			<p style="font-size:100%;">There is stuff that goes here</p><br>
 			<p style="font-size:100%;">There is stuff that goes here</p><br>
 			<p style="font-size:100%;">There is stuff that goes here</p><br>
-		</div>
-
-		<!--Contacts-->
-		<div class="col s12 m4 l2 hide-on-large-only">
-			<p class="black-text">Contacts</p>
-			<br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
-				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Resident Sleeper</span> - <span class="primary">510-656-9196</span><br> Kelvin Lewin
-				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Ganja Warrior</span> - <span class="primary">510-656-9196</span><br> Bob Marley
-				<br><span class="">M-Su 9am - 2am</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
-				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
-				<br><span class="error">M-F 9am - 5pm</span></p><br>
 		</div>
 	</div>
 </div>
