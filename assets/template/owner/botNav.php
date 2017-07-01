@@ -6,7 +6,19 @@
 				<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 			</div>
 		</div>
-		<!--Google translate Pages-->
+		<!--increase / decrease font sizes for accessibility-->
+		<button id="_biggify">
+			Bigger Text
+		</button>
+
+		<button id="_smallify">
+			Smaller Text
+		</button>
+
+		<button id="_reset">
+			Default Text
+		</button>
+		<!--Google translate Pages for accessibility-->
 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
 			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');

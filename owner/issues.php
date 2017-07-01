@@ -6,17 +6,6 @@ include("../assets/template/owner/topNav.php");
 	<h5 class="black-text">Issues <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
-	<button id="_biggify">
-Make Bigger
-</button>
-
-<button id="_smallify">
-Make Smaller
-</button>
-
-<button id="_reset">
-Make Default
-</button>
 	<div class="row">
 		<!--tasks-->
 		<div class="col s12 m8">

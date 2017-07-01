@@ -13,5 +13,5 @@ $('#_smallify').on('click', function() {
 })
 
 $('#_reset').on('click', function() {
-  $('html').css('font-size', '32px')
+  $('html').css('font-size', '15px')
 })
