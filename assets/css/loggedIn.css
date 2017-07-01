@@ -1907,6 +1907,28 @@ td,
 th {
   padding: 0; }
 
+span.badge {
+  min-width: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 18px;
+  height: 18px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #EF4B23;
+  border-radius: 2px;
+  color: #fff;
+  padding: 0 2px;
+  z-index: 1; }
+  span.badge[badgeText]::after {
+    content: " " attr(badgeText); }
+
+nav ul a span.badge {
+  display: inline-block;
+  margin-left: -5px;
+  position: relative;
+  margin-top: calc(32px - 18px); }
+
 .shittyBanner {
   width: 40%;
   padding: 30px;
