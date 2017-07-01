@@ -1919,7 +1919,7 @@ span.badge {
   border-radius: 2px;
   color: #fff;
   padding: 0 2px;
-  z-index: 2; }
+  z-index: 1; }
   span.badge[badgeText]::after {
     content: " " attr(badgeText); }
 
