@@ -3,7 +3,7 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text">Dashboard <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text">Dashboard<span class="badge" >3</span> <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
 	<div class="row">
