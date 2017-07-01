@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 	<head>
 		<title>UMS | Use My Software</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -10,8 +10,6 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 	</head>
 	<body>
-
-
 		<!--Side Navigation Bar-->
 		<div class="sidebar " id="side">
 			<div class="sideHeader" style="text-align:center;">
@@ -48,7 +46,7 @@
 					<a href="./index" class="logo hide-on-med-and-down"><img src="../assets/img/logoText.svg" style="height:100%;"></a>
 					<ul class="left">
 						<li><a href="./index" title="Dashboard"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
-						<li><a href="./tasks" title="My Tasks"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
+						<li><a href="./issues" title="Tenant's Issues"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
 						<li><a href="./people" title="Tenants"><i class="fa fa-users" aria-hidden="true"></i></a></li>
 						<li><a href="./email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 						<gg class="hide-on-small-only">
