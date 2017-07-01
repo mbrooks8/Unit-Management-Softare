@@ -45,19 +45,19 @@
 			<nav class="">
 				<div style="width:90%;">
 					<a href="./index" class="logo"><img src="../assets/img/logo.svg" style="height:100%;"></a>
-					<ul class="left hide-on-med-and-down">
-						<li><a href="./index"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
-						<li><a href="./tasks"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
-						<li><a href="./people"><i class="fa fa-users" aria-hidden="true"></i></a></li>
-						<li><a href="./email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<ul class="left hide-on-small-only">
+						<li><a href="./index" title="Dashboard"><i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
+						<li><a href="./tasks" title="My Tasks"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
+						<li><a href="./people" title="Tenants"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+						<li><a href="./email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 					</ul>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="./alerts"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
-						<li><a href="./call"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+					<ul class="right hide-on-small-only">
+						<li><a href="./alerts" title="Alerts"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+						<li><a href="./call" title="Call"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
 						<li><input placeholder="Search..." class="navSearch"></li>
-						<li><a href="./profile"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+						<li><a href="./profile" title="My Profile"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
 					</ul>
-					<ul class="right hide-on-large-only">
+					<ul class="right hide-on-med-and-up">
 						<li><a class="sideToggle"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
 
 					</ul>

@@ -2133,7 +2133,7 @@ a {
     width: 60%; }
 
   .large {
-    width: 90%; } }
+    width: 95%; } }
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -2561,7 +2561,7 @@ nav {
   overflow: hidden;
   width: 100%; }
   nav .button, nav .modalFooter ul li a, .modalFooter ul li nav a {
-    font-size: 1rem; }
+    font-size: 1.3rem; }
   nav .logo {
     /*position:absolute;*/
     float: left;
@@ -2610,7 +2610,7 @@ nav {
         background-color: rgba(0, 0, 0, 0.1); }
     nav ul a {
       transition: color .3s;
-      font-size: 1rem;
+      font-size: 1.3rem;
       color: #FFFFFF;
       display: block;
       padding: 0 15px;
