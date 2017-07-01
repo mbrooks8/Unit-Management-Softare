@@ -1,5 +1,5 @@
 <?php
-include("./assets/template/topNav.php");
+include("./assets/template/home/topNav.php");
 ?>
 
 
@@ -29,5 +29,5 @@ include("./assets/template/topNav.php");
 
 
 <?php
-include("./assets/template/botNav.php");
+include("./assets/template/home/botNav.php");
 ?>
