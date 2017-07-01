@@ -1,12 +1,20 @@
 <?php
 include('./connect.php');
-$apartmentName 	= $_GET["apartmentName"];
-$numUnits 		= $_GET["numUnits"];
-$vacancies 		= $_GET["vacancies"];
-$managerId 		= $_GET["managerId"];
 
-$stmt = $conn->prepare("INSERT INTO `apartment` (`name`, `units`, `vacancies`,`managerId`) VALUES (?,?,?,?)");
-$stmt->bind_param("siii", $apartmentName, $numUnits, $vacancies, $managerId);
+include("./isLoggedIn.php");
+
+if($_SESSION["id"] == 0)
+{
+	echo"you are not a manager";
+	exit();
+}
+
+$apartmentName 	= $_POST["apartmentName"];
+$numUnits 		= $_POST["numUnits"];
+$managerId 		= $_SESSION["id"];
+
+$stmt = $conn->prepare("INSERT INTO `apartment` (`name`, `units`, `vacancies`, `managerId`) VALUES (?,?,?,?)");
+$stmt->bind_param("siii", $apartmentName, $numUnits, $numUnits, $managerId);
 
 if($stmt->execute())
 {
