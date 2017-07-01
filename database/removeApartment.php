@@ -1,7 +1,7 @@
 <?php
 include('./connect.php');
-$apartmentId 	= $_GET["apartmentId"];
-$managerId 		= $_GET["managerId"];
+$apartmentId 	= $_POST["apartmentId"];
+$managerId 		= $_POST["managerId"];
 
 $stmt = $conn->prepare("DELETE FROM `apartment` Where managerId = ? and apartmentId = ?");
 $stmt->bind_param("ii", $managerId, $apartmentId);

@@ -1,9 +1,9 @@
 <?php
 include('./connect.php');
-$userId 	= $_GET["userId"];
-$unitNumber = $_GET["unitNumber"];
-$firstName 	= $_GET["firstName"];
-$lastName 	= $_GET["lastName"];
+$userId 	= $_POST["userId"];
+$unitNumber = $_POST["unitNumber"];
+$firstName 	= $_POST["firstName"];
+$lastName 	= $_POST["lastName"];
 
 $stmt = $conn->prepare("INSERT INTO `tenants` (`userId`, `unitNumber`, `firstName`, `lastName`) VALUES (?,?,?,?)");
 $stmt->bind_param("iiss", $userId, $unitNumber,$firstName,$lastName);

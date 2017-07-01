@@ -1,6 +1,6 @@
 <?php
 include('./connect.php');
-$managerId = $_GET["managerId"];
+$managerId = $_POST["managerId"];
 
 $stmt = $conn->prepare("SELECT * FROM `apartment` WHERE managerId = ?");
 $stmt->bind_param("i", $managerId);

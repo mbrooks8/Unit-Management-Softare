@@ -1,9 +1,9 @@
 <?php
 include('./connect.php');
-$apartmentName 	= $_GET["apartmentName"];
-$numUnits 		= $_GET["numUnits"];
-$vacancies 		= $_GET["vacancies"];
-$managerId 		= $_GET["managerId"];
+$apartmentName 	= $_POST["apartmentName"];
+$numUnits 		= $_POST["numUnits"];
+$vacancies 		= $_POST["vacancies"];
+$managerId 		= $_POST["managerId"];
 
 $stmt = $conn->prepare("INSERT INTO `apartment` (`name`, `units`, `vacancies`,`managerId`) VALUES (?,?,?,?)");
 $stmt->bind_param("siii", $apartmentName, $numUnits, $vacancies, $managerId);

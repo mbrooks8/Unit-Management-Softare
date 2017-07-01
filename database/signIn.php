@@ -3,8 +3,8 @@ session_start();
 ?>
 <?php
 include('./connect.php');
-$username = $_GET["username"];
-$password = $_GET["password"];
+$username = $_POST["username"];
+$password = $_POST["password"];
 $stmt = $conn->prepare("SELECT password,id FROM `users` WHERE username = ?");
 
 $stmt->bind_param("s", $username);

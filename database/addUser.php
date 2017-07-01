@@ -1,8 +1,8 @@
 <?php
 include('./connect.php');
-$username 	= $_GET["username"];
-$password 	= $_GET["password"];
-$type 		= $_GET["type"];
+$username 	= $_POST["username"];
+$password 	= $_POST["password"];
+$type 		= $_POST["type"];
 
 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
