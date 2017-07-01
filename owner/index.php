@@ -29,7 +29,7 @@ include("../assets/template/owner/topNav.php");
 			<br>
 			<div class="row">
 				<div class="col s10">
-					<p>Carpet Cleaner Guy will come to <span class="primary">clean Unit 4</span> on 7/16/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Carpet Cleaner Guy will come to <span class="primary">clean Unit 4</span> on 7/16/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -37,7 +37,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Esteban Perez at Unit 12 has Perez at Unit 12 hasPerez at Unit 12 hasPerez at Unit 12 has <span class="primary">leaky faucet </span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Esteban Perez at Unit 12 has Perez at Unit 12 hasPerez at Unit 12 hasPerez at Unit 12 has <span class="primary">leaky faucet </span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -45,7 +45,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -53,7 +53,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Andres Reyes at Unit 4 needs to <span class="primary">renew his renters insurance</span> on 9/11/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Andres Reyes at Unit 4 needs to <span class="primary">renew his renters insurance</span> on 9/11/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -61,7 +61,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Nicholas Vaishampayan at Unit 21 has <span class="primary">my sink broke</span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Nicholas Vaishampayan at Unit 21 has <span class="primary">my sink broke</span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -69,7 +69,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -77,7 +77,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
@@ -85,14 +85,15 @@ include("../assets/template/owner/topNav.php");
 			</div>
 			<div class="row">
 				<div class="col s10">
-					<p>Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>  Esteban Perez at Unit 12 has <span class="primary">leaky faucet</span> on 6/30/2017</p>
 				</div>
 				<div class="col s2">
 					<p class="right">6/30/2017</p>
 				</div>
 			</div>
+			<p style="font-size:90%;" class="secondary">See More Activity</p>
 		</div>
-
+<p>&nbsp;</p>
 		<!--tasks-->
 		<div class="col s12 m6 l2">
 			<p class="black-text">My Tasks</p>
