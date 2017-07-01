@@ -3,8 +3,8 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text">Dashboard<span class="badge" >3</span> <span class="right">6/30/2016 &bull; 23:38</span></h5>
-	<br>
+	<h5 class="black-text">Dashboard<span class="right">6/30/2016<span class="hide-on-small-only"> &bull; 23:38</span></span></h5>
+	<br class="hide-on-small-only">
 	<br>
 	<div class="row">
 		<!--Contacts-->
