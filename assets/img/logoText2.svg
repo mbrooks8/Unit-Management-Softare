@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="94.242065mm"
+   width="294.58282mm"
    height="89.213432mm"
-   viewBox="0 0 333.92858 316.11059"
-   id="svg5105"
+   viewBox="0 0 1043.7974 316.11059"
+   id="svg4457"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logoNoText.svg">
+   sodipodi:docname="logo.svg">
   <defs
-     id="defs5107" />
+     id="defs4459" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="184.21856"
-     inkscape:cy="77.913466"
+     inkscape:cx="519.7497"
+     inkscape:cy="209.83563"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +41,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <metadata
-     id="metadata5110">
+     id="metadata4462">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,9 +56,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-250.17858,-395.73547)">
+     transform="translate(359.04158,-162.87833)">
+    <rect
+       style="opacity:1;fill:#00dab1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:8.03807449;stroke-opacity:1"
+       id="rect4161-3-2"
+       width="5"
+       height="0.71428573"
+       x="-7.2558422"
+       y="365.56033"
+       inkscape:export-xdpi="36.213921"
+       inkscape:export-ydpi="36.213921" />
     <g
-       transform="translate(609.22016,232.85714)"
        id="g5734">
       <g
          transform="translate(-500.35713,-516.85543)"
@@ -141,5 +149,19 @@
            transform="scale(1,-1)" />
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.53632736px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#00dab1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-44.149555"
+       y="401.56158"
+       id="text4182-1-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="18.10696"
+       inkscape:export-ydpi="18.10696"><tspan
+         sodipodi:role="line"
+         id="tspan4184-6-3"
+         x="-44.149555"
+         y="401.56158"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:255.2179718px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#00dab1;fill-opacity:1">HESTIA</tspan></text>
   </g>
 </svg>

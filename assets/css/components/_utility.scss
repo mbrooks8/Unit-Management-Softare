@@ -52,6 +52,9 @@ small { font-size: 75%; }
 .primary{
     color:$primary-color !important;
 }
+.error{
+	color:$error-color !important;
+}
 //icons
 i{
     color:$icon-color;

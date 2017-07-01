@@ -2477,7 +2477,7 @@ small {
   color: #EF4B23 !important; }
 
 i {
-  color: black; }
+  color: #9BA7AF; }
 
 hr {
   height: 1px;
@@ -2573,7 +2573,7 @@ body {
 
 nav {
   height: 64px;
-  background-color: #FFFFFF;
+  background-color: #333333;
   width: 100%;
   line-height: 64px;
   padding-left: 20px;
@@ -2582,11 +2582,11 @@ nav {
   overflow: hidden;
   width: 100%; }
   nav .button, nav .modalFooter ul li a, .modalFooter ul li nav a {
-    font-size: 1rem; }
+    font-size: 1.3rem; }
   nav .logo {
     /*position:absolute;*/
     float: left;
-    color: #94A0A9;
+    color: #FFFFFF;
     display: inline-block;
     padding: 0;
     height: 64px;
@@ -2637,28 +2637,28 @@ nav {
         background-color: rgba(0, 0, 0, 0.1); }
     nav ul a {
       transition: color .3s;
-      font-size: 1rem;
-      color: #94A0A9;
+      font-size: 1.3rem;
+      color: #FFFFFF;
       display: block;
       padding: 0 15px;
       cursor: pointer; }
       nav ul a:active {
-        color: #000000; }
+        color: #39C7A9; }
       nav ul a:hover {
-        color: #000000; }
+        color: #39C7A9; }
       nav ul a i {
-        color: #94A0A9; }
+        color: #FFFFFF; }
         nav ul a i:hover {
-          color: #000000; }
+          color: #39C7A9; }
     nav ul.left {
       float: left; }
   nav.fixed {
     position: fixed;
     top: 0px;
-    background-color: #FFFFFF; }
+    background-color: #333333; }
   nav.bottom {
     bottom: 0px;
-    background-color: #FFFFFF;
+    background-color: #333333;
     position: fixed; }
 
 .active .overlay {
@@ -2701,7 +2701,7 @@ nav {
 
 .sideHeader {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #333333;
   min-height: 40px;
   z-index: 1;
   padding: 10px; }
@@ -3359,4 +3359,4 @@ td, th {
   z-index: 1000;
   transition: background-color .4s ease; }
 
-/*# sourceMappingURL=poverty.css.map */
+/*# sourceMappingURL=loggedIn.css.map */
