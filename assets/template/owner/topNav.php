@@ -42,7 +42,7 @@
 			</style>
 			<nav class="">
 				<div style="navContainer">
-					<a href="./index" class="logo hide-on-small-only hide-on-large-only"><img src="../assets/img/logo.svg" style="height:100%;"></a>
+					<a href="./index" class="logo hide-on-small-only hide-on-large-only"><img src="../assets/img/logo.svg" style="height:80%;"></a>
 					<a href="./index" class="logo hide-on-med-and-down"><img src="../assets/img/logoText.svg" style="height:100%;"></a>
 					<ul class="left">
 						<li><a href="./index" title="Back">
@@ -68,15 +68,16 @@
 								<span class="badge" >1</span>
 							</a>
 						</li>
-						<li>
-							<a href="./applications" title="Applications">
-								<i class="fa fa-id-card" aria-hidden="true"></i>
-								<span class="badge" >17</span>
-							</a>
-						</li>
-
-
 						<gg class="hide-on-small-only">
+
+							<li>
+								<a href="./applications" title="Applications">
+									<i class="fa fa-id-card" aria-hidden="true"></i>
+									<span class="badge" >17</span>
+								</a>
+							</li>
+
+
 
 							<li><h4>|</h4></li>
 							<!--calendar-->
