@@ -9,7 +9,7 @@ include("../assets/template/owner/topNav.php");
 	<div class="row">
 		<!--tasks-->
 		<div class="col s12 m12 l10">
-			<p class="black-text">Tenant's Workorders</p>
+			<p><span class="black-text">Tenant's Workorders</span> filtered by <span class="black-text">None <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
 			<br>
 
 
@@ -18,8 +18,8 @@ include("../assets/template/owner/topNav.php");
 			<table class="bordered highlight hide-on-small-only">
 				<thead>
 					<tr>
-						<th>Tenant</th>
-						<th>Workorder</th>
+						<th style="padding-top:0;"><i class="fa fa-user" aria-hidden="true"></i> Tenant</th>
+						<th style="padding-top:0;"><i class="fa fa-briefcase" aria-hidden="true"></i> Workorder</th>
 					</tr>
 				</thead>
 				<tbody>

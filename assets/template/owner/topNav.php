@@ -32,9 +32,9 @@
 					</li>
 
 					<li>
-						<a href="./issues" title="Tenant's Issues">
+						<a href="./workorders" title="Tenant's Workorders">
 							<i class="fa fa-tasks" aria-hidden="true"></i>
-							Tenant's Issues
+							Tenant's Workorders
 							<span class="badge" >3</span>
 						</a>
 					</li>
@@ -111,7 +111,7 @@
 						</li>
 
 						<li>
-							<a href="./issues" title="Tenant's Issues">
+							<a href="./workorders" title="Tenant's Workorders">
 								<i class="fa fa-tasks" aria-hidden="true"></i>
 								<span class="badge" >3</span>
 							</a>
