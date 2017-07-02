@@ -20,47 +20,84 @@
 	&.border{
 		border:1px solid #94A0A9;
 	}
+	&:hover
+	{
+		background-color:$primary-color;
+		color:white;
+		border-color:$primary-color;
+		cursor:pointer;
+	}
 	&.raised{
-		&:hover
-		{
-			background-color:$primary-color;
+		background-color:$primary-color;
+		color:white;
+		border-color:$primary-color;
+		&.successButton{
 			color:white;
-			border-color:$primary-color;
+			background-color:$success-color;
+			&:hover
+			{
+				background-color:darken($success-color, 5%);
+				color:white;
+				border-color:darken($success-color, 5%);
+				cursor:pointer;
+			}
+		}
+		&.warningButton{
+			color:white;
+			background-color:$warning-color;
+			&:hover
+			{
+				background-color:darken($warning-color, 5%);
+				color:white;
+				border-color:darken($warning-color, 5%);
+				cursor:pointer;
+			}
+		}
+		&.errorButton{
+			color:white;
+			background-color:$error-color;
+			&:hover
+			{
+				background-color:darken($error-color, 5%);
+				color:white;
+				border-color:darken($error-color, 5%);
+				cursor:pointer;
+			}
 		}
 	}
-/*	&:before
+	/*	&:before
 	{
-		transition: background-color .2s ease;
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		content: "";
-		z-index: 1;
-		height: 100%;
-		width:100%;
-		background-color: rgba(0,0,0,0);
-	}
+	transition: background-color .2s ease;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	content: "";
+	z-index: 1;
+	height: 100%;
+	width:100%;
+	background-color: rgba(0,0,0,0);
+}
 	&:active
 	{
-		&:after
-		{
-			z-index: 1;
-			content: "";
-			border-radius: 50%;
-			height: 0px;
-			width: 0px;
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			transform: translate(-50%,-50%);
+	&:after
+	{
+	z-index: 1;
+	content: "";
+	border-radius: 50%;
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
 
-			animation-name: tap;
-			animation-duration: .4s;
-			animation-iteration-count: 1;
-			animation-timing-function: ease-in-out;
-			background-color: rgba(255,255,255,.2);
-		}
-	}*/
+	animation-name: tap;
+	animation-duration: .4s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	background-color: rgba(255,255,255,.2);
+}
+}*/
 	&:hover
 	{
 		&:before{

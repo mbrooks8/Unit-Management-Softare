@@ -2498,6 +2498,9 @@ small {
 .error {
   color: #EF4B23 !important; }
 
+.warning {
+  color: #F0AD4E !important; }
+
 i {
   color: #9BA7AF; }
 
@@ -3033,47 +3036,76 @@ small {
   color: black;
   transition: all .2s ease;
   /*text-transform: uppercase;*/
-  /*	&:before
+  	/*	&:before
   	{
-  		transition: background-color .2s ease;
-  		position: absolute;
-  		left: 0px;
-  		top: 0px;
-  		content: "";
-  		z-index: 1;
-  		height: 100%;
-  		width:100%;
-  		background-color: rgba(0,0,0,0);
-  	}
+  	transition: background-color .2s ease;
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	content: "";
+  	z-index: 1;
+  	height: 100%;
+  	width:100%;
+  	background-color: rgba(0,0,0,0);
+  }
   	&:active
   	{
-  		&:after
-  		{
-  			z-index: 1;
-  			content: "";
-  			border-radius: 50%;
-  			height: 0px;
-  			width: 0px;
-  			position: absolute;
-  			left: 50%;
-  			top: 50%;
-  			transform: translate(-50%,-50%);
+  	&:after
+  	{
+  	z-index: 1;
+  	content: "";
+  	border-radius: 50%;
+  	height: 0px;
+  	width: 0px;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%,-50%);
 
-  			animation-name: tap;
-  			animation-duration: .4s;
-  			animation-iteration-count: 1;
-  			animation-timing-function: ease-in-out;
-  			background-color: rgba(255,255,255,.2);
-  		}
-  	}*/ }
+  	animation-name: tap;
+  	animation-duration: .4s;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in-out;
+  	background-color: rgba(255,255,255,.2);
+  }
+  }*/ }
   .button.round, .modalFooter ul li a.round {
     border-radius: 2.4em; }
   .button.border, .modalFooter ul li a.border {
     border: 1px solid #94A0A9; }
-  .button.raised:hover, .modalFooter ul li a.raised:hover {
+  .button:hover, .modalFooter ul li a:hover {
+    background-color: #00CC99;
+    color: white;
+    border-color: #00CC99;
+    cursor: pointer; }
+  .button.raised, .modalFooter ul li a.raised {
     background-color: #00CC99;
     color: white;
     border-color: #00CC99; }
+    .button.raised.successButton, .modalFooter ul li a.raised.successButton {
+      color: white;
+      background-color: #00CC99; }
+      .button.raised.successButton:hover, .modalFooter ul li a.raised.successButton:hover {
+        background-color: #00b386;
+        color: white;
+        border-color: #00b386;
+        cursor: pointer; }
+    .button.raised.warningButton, .modalFooter ul li a.raised.warningButton {
+      color: white;
+      background-color: #F0AD4E; }
+      .button.raised.warningButton:hover, .modalFooter ul li a.raised.warningButton:hover {
+        background-color: #eea236;
+        color: white;
+        border-color: #eea236;
+        cursor: pointer; }
+    .button.raised.errorButton, .modalFooter ul li a.raised.errorButton {
+      color: white;
+      background-color: #EF4B23; }
+      .button.raised.errorButton:hover, .modalFooter ul li a.raised.errorButton:hover {
+        background-color: #e83b11;
+        color: white;
+        border-color: #e83b11;
+        cursor: pointer; }
   .button:hover:before, .modalFooter ul li a:hover:before {
     background-color: rgba(0, 0, 0, 0.08); }
   .button.floating, .modalFooter ul li a.floating {

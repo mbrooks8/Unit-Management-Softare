@@ -39,6 +39,20 @@ include("../assets/template/owner/topNav.php");
 							<h5 class="primary responsive-text">Poop is on my walls</h5>
 						</td>
 					</tr>
+
+					<!--add this stuff-->
+				</tbody>
+			</table>
+			<p>test</p>
+			<div class="button raised errorButton">Deny</div>
+			<div class="button raised warningButton">In Progress</div>
+			<div class="button raised successButton">Complete</div>
+			<table class="bordered highlight hide-on-small-only">
+			<thead>
+				<tr></tr>
+			</thead>
+				<tbody>
+				<!--end of stuff to add-->
 					<tr>
 						<td>
 							<h5 class="responsive-text">

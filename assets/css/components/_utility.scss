@@ -55,6 +55,9 @@ small { font-size: 75%; }
 .error{
 	color:$error-color !important;
 }
+.warning{
+	color:$warning-color !important;
+}
 //icons
 i{
     color:$icon-color;
