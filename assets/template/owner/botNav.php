@@ -14,7 +14,6 @@
 		<button id="_smallify">
 			Smaller Text
 		</button>
-
 		<button id="_reset">
 			Default Text
 		</button>
