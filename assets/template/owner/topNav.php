@@ -19,7 +19,12 @@
 				</div>
 			</div>
 			<div class="sideBody">
-				<ul >
+				<ul>
+					<li><a href="./index" title="View your units">
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+						View Your Units
+						</a>
+					</li>
 					<li><a href="./dashboard" title="Dashboard">
 						<i class="fa fa-tachometer" aria-hidden="true"></i>
 						Dashboard
@@ -82,12 +87,24 @@
 					outline:0;
 				}
 			</style>
+
 			<nav class="">
 				<div style="navContainer">
-					<a href="./index" class="logo hide-on-small-only hide-on-large-only"><img src="../assets/img/logo.svg" style="height:80%;"></a>
-					<a href="./index" class="logo hide-on-med-and-down"><img src="../assets/img/logoText.svg" style="height:100%;"></a>
-					<ul class="left">
+					<a href="./index" class="logo hide-on-small-only hide-on-large-only">
+						<img src="../assets/img/logo.svg" style="height:80%;">
+					</a>
 
+					<a href="./index" class="logo hide-on-med-and-down">
+						<img src="../assets/img/logoText.svg" style="height:100%;">
+					</a>
+
+					<ul class="left">
+						<gg class="hide-on-small-only">
+							<li><a href="./index" title="View your units">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>
+								</a>
+							</li>
+						</gg>
 						<li><a href="./dashboard" title="Dashboard">
 							<i class="fa fa-tachometer" aria-hidden="true"></i>
 							</a>

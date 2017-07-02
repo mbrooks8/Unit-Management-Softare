@@ -50,7 +50,7 @@ small { font-size: 75%; }
     color:$accent-color !important;
 }
 .primary{
-    color:$primary-color !important;
+    color:darken($primary-color, 15%) !important;
 }
 .error{
 	color:$error-color !important;
@@ -96,15 +96,6 @@ html {
     overflow-x: hidden;
 
 }
-//::-webkit-scrollbar {
-//	width: 0px;  /* remove scrollbar space */
-//	background: transparent;  /* optional: just make scrollbar invisible */
-//}
-/* optional: show position indicator in red */
-//::-webkit-scrollbar-thumb {
-//	background: transparent;
-//}
-
 //Sticky Footer
 
 body {

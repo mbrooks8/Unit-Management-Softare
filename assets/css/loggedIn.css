@@ -2493,7 +2493,7 @@ small {
   color: #43D4FF !important; }
 
 .primary {
-  color: #00CC99 !important; }
+  color: #008060 !important; }
 
 .error {
   color: #EF4B23 !important; }
@@ -2528,7 +2528,6 @@ html {
   overflow: scroll;
   overflow-x: hidden; }
 
-/* optional: show position indicator in red */
 body {
   min-height: 100vh;
   flex-direction: column;
