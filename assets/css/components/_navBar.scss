@@ -24,9 +24,10 @@ nav {
 		font-size:$nav-logo-text-size;
 
 		img{
-			max-height:$nav-height;
-			padding-top:10px;
-			padding-bottom:10px;
+			max-height:54px;
+			padding-top: 18px;
+			padding-bottom: 10px;
+			padding-left: 20px;
 		}
 
 		&.center {
