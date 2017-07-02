@@ -8,14 +8,14 @@ include("../assets/template/owner/topNav.php");
 	<br>
 	<div class="row">
 		<!--tasks-->
-		<div class="col s12 m12">
+		<div class="col s12 m12 l10">
 			<p class="black-text">Tenant's Workorders</p>
 			<br>
 
 
 
 
-			<table class="bordered highlight">
+			<table class="bordered highlight hide-on-small-only">
 				<thead>
 					<tr>
 						<th>Tenant</th>
@@ -25,24 +25,24 @@ include("../assets/template/owner/topNav.php");
 				<tbody>
 					<tr>
 						<td>
-							<h5>
-								<span class="black-text">Esteban Perez</span>
+							<h5 class="responsive-text">
+								<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
 								<span style="font-size:80%;">#12</span>
 							</h5>
-							<p style="font-size:100%;">9/19/2017 &bull;
+							<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
 								<span class="primary">
 									<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 								</span>
 							</p>
 						</td>
 						<td>
-							<h5 class="primary">Poop is on my walls</h5>
+							<h5 class="primary responsive-text">Poop is on my walls</h5>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<h5 class="responsive-text">
-								<span class="black-text">Esteban Perez</span>
+								<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
 								<span style="font-size:80%;">#12</span>
 							</h5>
 							<p style="font-size:100%;">9/19/2017 &bull;
@@ -58,8 +58,8 @@ include("../assets/template/owner/topNav.php");
 
 					<tr>
 						<td>
-							<h5>
-								<span class="black-text">Esteban Perez</span>
+							<h5 class="responsive-text">
+								<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
 								<span style="font-size:80%;">#12</span>
 							</h5>
 							<p style="font-size:100%;">9/19/2017 &bull;
@@ -69,73 +69,81 @@ include("../assets/template/owner/topNav.php");
 							</p>
 						</td>
 						<td>
-							<h5 class="primary">My Toilet is Cracked and I dont know what to do about it i liek more text cause its cool</h5>
+							<h5 class="primary responsive-text">This one is responsive Text dont know what to do about it i liek more text cause its cool</h5>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 
-
-
-
-
-
 			<!--this thing-->
-			<div class="row">
-				<div class="col s12 m4">
-					<h5>
-						<span class="black-text">Esteban Perez</span>
-						<span style="font-size:80%;">#12</span>
-					</h5>
-					<p style="font-size:100%;">9/19/2017 &bull; <wbr><span class="primary">510-570-5088</span></p>
+			<div class="hide-on-med-and-up">
+				<hr>
+				<div class="row" style="margin:0;">
+					<div class="col s12 m4 l3" style="padding-left:0;">
+						<h5 class="responsive-text">
+							<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
+							<span style="font-size:80%;">#12</span>
+						</h5>
+					</div>
+					<div class="col s12 m8 l9" style="padding-left:0;">
+						<h5 class="primary responsive-text">Poop is on my walls</h5>
+					</div>
 				</div>
+				<div class="col s12" style="padding-left:0;">
+					<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
+						<span class="primary">
+							<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
+						</span>
+					</p>
+				</div>
+				<br>
+				<hr>
+				<div class="row" style="margin:0;">
+					<div class="col s12 m4 l3" style="padding-left:0;">
+						<h5 class="responsive-text">
+							<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
+							<span style="font-size:80%;">#12</span>
+						</h5>
+					</div>
+					<div class="col s12 m8 l9" style="padding-left:0;">
+						<h5 class="primary responsive-text">This one is repsonsive text My Toilet is Cracked and I dont know what to do about it i liek more text cause its cool</h5>
+					</div>
+				</div>
+				<div class="col s12" style="padding-left:0;">
+					<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
+						<span class="primary">
+							<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
+						</span>
+					</p>
+				</div>
+				<br>
+				<hr>
+				<div class="row" style="margin:0;">
+					<div class="col s12 m4 l3" style="padding-left:0;">
+						<h5 class="responsive-text">
+							<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
+							<span style="font-size:80%;">#12</span>
+						</h5>
+					</div>
+					<div class="col s12 m8 l9" style="padding-left:0;">
+						<h5 class="primary responsive-text">This one is repsonsive text My Toilet is Cracked and I dont know what to do about it i liek more text cause its cool</h5>
+					</div>
+				</div>
+				<div class="col s12" style="padding-left:0;">
+					<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
+						<span class="primary">
+							<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
+						</span>
+					</p>
+				</div>
+				<br>
 
-				<div class="col s12 m8">
-					<h5 class="primary">Toilet Crack</h5>
-				</div>
+
 			</div>
-			<hr>
-			<div class="row" style="margin:0;">
-				<div class="col s12 m4 l4" style="padding-left:0;">
-					<h5 class="responsive-text">
-						<span class="black-text">Esteban Perez</span>
-						<span style="font-size:80%;">#12</span>
-					</h5>
-				</div>
-				<div class="col s12 m8 l8" style="padding-left:0;">
-					<h5 class="primary responsive-text">This one is repsonsive text My Toilet is Cracked and I dont know what to do about it i liek more text cause its cool</h5>
-				</div>
-			</div>
-			<div class="col s12" style="padding-left:0;">
-				<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-					<span class="primary">
-						<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
-					</span>
-				</p>
-			</div>
-			<br>
-			<hr>
-			<div class="row" style="margin:0;">
-				<div class="col s12 m4 l4" style="padding-left:0;">
-					<h5>
-						<span class="black-text">Esteban Perez</span>
-						<span style="font-size:80%;">#12</span>
-					</h5>
-				</div>
-				<div class="col s12 m8 l8" style="padding-left:0;">
-					<h5 class="primary">My Toilet is Cracked and I dont know what to do about it i liek more text cause its cool</h5>
-				</div>
-			</div>
-			<div class="col s12" style="padding-left:0;">
-				<p style="font-size:100%;">9/19/2017 &bull;
-					<span class="primary">
-						<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
-					</span>
-				</p>
-			</div>
-			<br>
-			<hr>
+			<hr class="hide-on-med-and-up">
+			<br class="hide-on-large-only">
 		</div>
+
 
 		<div class="col s12 m12 l2">
 			<p class="black-text">Vendors</p>
