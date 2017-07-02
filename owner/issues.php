@@ -9,7 +9,7 @@ include("../assets/template/owner/topNav.php");
 	<div class="row">
 		<!--tasks-->
 		<div class="col s12 m8">
-			<p class="black-text">Tenant's Issues</p>
+			<p class="black-text">Tenant's Workorders</p>
 			<br>
 			<!--this thing-->
 			<div class="row" style="margin:0; margin-bottom:20px;">
@@ -21,6 +21,7 @@ include("../assets/template/owner/topNav.php");
 					<p style="font-size:100%;">9/19/2017 &bull; <wbr><span class="primary">510-570-5088</span></p>
 				</div>
 			</div>
+			<hr>
 			<div class="row" style="margin:0; margin-bottom:20px;">
 				<div class="col s1" style="padding:0;">
 					<input type="checkbox" name="id1" value="1">
