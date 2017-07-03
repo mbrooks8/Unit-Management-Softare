@@ -49,6 +49,9 @@ small { font-size: 75%; }
 .accent{
     color:$accent-color !important;
 }
+.success{
+	color:$success-color !important;
+}
 .primary{
     color:darken($primary-color, 5%) !important;
 }

@@ -2470,6 +2470,9 @@ small {
 .accent {
   color: #43D4FF !important; }
 
+.success {
+  color: #00CC99 !important; }
+
 .primary {
   color: #00b386 !important; }
 
@@ -3064,25 +3067,25 @@ small {
       color: white;
       background-color: #00CC99; }
       .button.raised.successButton:hover, .modalFooter ul li a.raised.successButton:hover {
-        background-color: #00b386;
+        background-color: #009973;
         color: white;
-        border-color: #00b386;
+        border-color: #009973;
         cursor: pointer; }
     .button.raised.warningButton, .modalFooter ul li a.raised.warningButton {
       color: white;
       background-color: #FEF200; }
       .button.raised.warningButton:hover, .modalFooter ul li a.raised.warningButton:hover {
-        background-color: #e5da00;
+        background-color: #cbc100;
         color: white;
-        border-color: #e5da00;
+        border-color: #cbc100;
         cursor: pointer; }
     .button.raised.errorButton, .modalFooter ul li a.raised.errorButton {
       color: white;
       background-color: #EF4B23; }
       .button.raised.errorButton:hover, .modalFooter ul li a.raised.errorButton:hover {
-        background-color: #e83b11;
+        background-color: #d0350f;
         color: white;
-        border-color: #e83b11;
+        border-color: #d0350f;
         cursor: pointer; }
   .button:hover:before, .modalFooter ul li a:hover:before {
     background-color: rgba(0, 0, 0, 0.08); }

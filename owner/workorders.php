@@ -44,9 +44,9 @@ include("../assets/template/owner/topNav.php");
 				</tbody>
 			</table>
 			<p>test</p>
-			<div class="button raised errorButton">Deny</div>
-			<div class="button raised warningButton">In Progress</div>
-			<div class="button raised successButton">Complete</div>
+			<div class="button raised errorButton"><i class="fa fa-times white-text" aria-hidden="true"></i> Deny</div>
+			<div class="button raised warningButton"><i class="fa fa-hourglass white-text" aria-hidden="true"></i> In Progress</div>
+			<div class="button raised successButton"><i class="fa fa-check white-text" aria-hidden="true"></i> Complete</div>
 			<table class="bordered highlight hide-on-small-only">
 			<thead>
 				<tr></tr>

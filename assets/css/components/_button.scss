@@ -36,9 +36,9 @@
 			background-color:$success-color;
 			&:hover
 			{
-				background-color:darken($success-color, 5%);
+				background-color:darken($success-color, 10%);
 				color:white;
-				border-color:darken($success-color, 5%);
+				border-color:darken($success-color, 10%);
 				cursor:pointer;
 			}
 		}
@@ -47,9 +47,9 @@
 			background-color:$warning-color;
 			&:hover
 			{
-				background-color:darken($warning-color, 5%);
+				background-color:darken($warning-color, 10%);
 				color:white;
-				border-color:darken($warning-color, 5%);
+				border-color:darken($warning-color, 10%);
 				cursor:pointer;
 			}
 		}
@@ -58,9 +58,9 @@
 			background-color:$error-color;
 			&:hover
 			{
-				background-color:darken($error-color, 5%);
+				background-color:darken($error-color, 10%);
 				color:white;
-				border-color:darken($error-color, 5%);
+				border-color:darken($error-color, 10%);
 				cursor:pointer;
 			}
 		}
