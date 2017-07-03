@@ -60,7 +60,7 @@ include("../assets/template/owner/topNav.php");
 		</div>
 
 		<div class="col s12 m12 l2">
-			<p class="black-text">Contacts</p>
+			<p class="black-text">Vendors</p>
 			<br>
 			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
