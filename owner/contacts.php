@@ -24,7 +24,7 @@ include("../assets/template/owner/topNav.php");
 
 				<div id="allContacts" class="col s12">
 					<ul class="collapsible" data-collapsible="accordion">
-						<a href="index.php">
+						<a href="contact.php">
 							<li>
 								<div class="collapsibleHeader">
 									<table class="highlight">
@@ -52,7 +52,7 @@ include("../assets/template/owner/topNav.php");
 								</div>
 							</li>
 						</a>
-						<a href="index.php">
+						<a href="contact.php">
 							<li>
 								<div class="collapsibleHeader">
 									<table class="highlight">
@@ -80,7 +80,7 @@ include("../assets/template/owner/topNav.php");
 								</div>
 							</li>
 						</a>
-						<a href="index.php">
+						<a href="contact.php">
 							<li>
 								<div class="collapsibleHeader">
 									<table class="highlight">
@@ -108,7 +108,7 @@ include("../assets/template/owner/topNav.php");
 								</div>
 							</li>
 						</a>
-						<a href="index.php">
+						<a href="contact.php">
 							<li>
 								<div class="collapsibleHeader">
 									<table class="highlight">
