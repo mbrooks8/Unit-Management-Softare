@@ -41,7 +41,7 @@
 
 					<li>
 						<a href="./people" title="Tenants">
-							<i class="fa fa-users" aria-hidden="true"></i>
+							<i class="fa fa-user" aria-hidden="true"></i>
 							Tenants
 							<span class="badge" >1</span>
 						</a>
@@ -163,7 +163,7 @@
 						<li><input placeholder="Search..." class="navSearch"></li>
 						<li>
 							<a href="./profile" title="My Profile">
-								<i class="fa fa-user-o" aria-hidden="true"></i>
+								<i class="fa fa-gear" aria-hidden="true"></i>
 							</a>
 						</li>
 					</ul>
