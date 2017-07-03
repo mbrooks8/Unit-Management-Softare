@@ -40,9 +40,9 @@
 					</li>
 
 					<li>
-						<a href="./people" title="Tenants">
+						<a href="./contacts" title="contacts">
 							<i class="fa fa-users" aria-hidden="true"></i>
-							Tenants
+							contacts
 							<span class="badge" >1</span>
 						</a>
 					</li>
@@ -118,7 +118,7 @@
 						</li>
 
 						<li>
-							<a href="./people" title="Tenants">
+							<a href="./contacts" title="contacts">
 								<i class="fa fa-users" aria-hidden="true"></i>
 								<span class="badge" >1</span>
 							</a>
