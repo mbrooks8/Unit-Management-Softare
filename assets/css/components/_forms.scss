@@ -16,7 +16,7 @@
 	color: $placeholder-text-color;
 }
 
-input{
+input .text{
 	background-color: transparent;
 	border: none;
 	width:100%;
@@ -47,7 +47,7 @@ input{
 textarea{
 	width: 100%;
 	height: $input-height;
-	background-color: transparent;
+
 	resize: none;
 }
 label{
