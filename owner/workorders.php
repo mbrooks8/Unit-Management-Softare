@@ -43,16 +43,76 @@ include("../assets/template/owner/topNav.php");
 					<!--add this stuff-->
 				</tbody>
 			</table>
-			<p>test</p>
-			<div class="button raised errorButton"><i class="fa fa-times white-text" aria-hidden="true"></i> Deny</div>
-			<div class="button raised warningButton"><i class="fa fa-hourglass white-text" aria-hidden="true"></i> In Progress</div>
-			<div class="button raised successButton"><i class="fa fa-check white-text" aria-hidden="true"></i> Complete</div>
+			<style>
+				.modalItem{
+					transition: all .4s ease;
+					-webkit-filter: grayscale(25%); /* Safari */
+					filter: grayscale(25%);
+				}
+				.modalItem:hover{
+					-webkit-filter: grayscale(0%); /* Safari */
+					filter: grayscale(0%);
+				}
+			</style>
+			<div class="row">
+				<a href="#!" class="modalToggle" data-toggle="myModal">
+					<div class="col s3">
+						<img class="modalItem hoverable" src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
+					</div>
+				</a>
+				<a href="#!" class="modalToggle" data-toggle="myModal">
+					<div class="col s3">
+						<img class="modalItem hoverable" src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
+					</div>
+				</a>
+				<a href="#!" class="modalToggle" data-toggle="myModal">
+					<div class="col s3">
+						<img class="modalItem hoverable" src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
+					</div>
+				</a>
+				<a href="#!" class="modalToggle" data-toggle="myModal">
+					<div class="col s3">
+						<img class="modalItem hoverable" src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
+					</div>
+				</a>
+			</div>
+			<!--image stuff-->
+
+			<div id="myModal" class="modal z-depth-2">
+				<div class="modalHeader">
+					<img src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
+				</div>
+				<div class="modalBody">
+					Image Description
+				</div>
+				<div class="modalFooter">
+					<ul>
+						<li><a class="dismiss">Close</a></li>
+					</ul>
+				</div>
+			</div>
+			<h5 class="black-text">Description</h5>
+			<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+
+			<br>
+			<div>
+
+				<div class="left">
+
+				</div>
+				<div class="right">
+					<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+					<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+					<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+				</div>
+			</div>
+
 			<table class="bordered highlight hide-on-small-only">
-			<thead>
-				<tr></tr>
-			</thead>
+				<thead>
+					<tr></tr>
+				</thead>
 				<tbody>
-				<!--end of stuff to add-->
+					<!--end of stuff to add-->
 					<tr>
 						<td>
 							<h5 class="responsive-text">
