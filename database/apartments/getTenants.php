@@ -21,7 +21,7 @@ if($stmt->execute())
 
 		$object = "[";
 		while ($myrow = $result->fetch_assoc()) {
-			$object.="{\"firstName\":\"".$myrow['firstName']."\",\"lastName\":\"".$myrow['lastName']."\",\"unitNumber\":".$myrow['unitNumber'].",\"approved\":".$myrow['approved']."},";
+			$object.="{\"firstName\":\"".$myrow['firstName']."\",\"lastName\":\"".$myrow['lastName']."\",\"unitNumber\":".$myrow['unitNumber'].",\"approved\":".$myrow['approved'].",\"userId\":".$myrow['userId']."},";
 		}
 		$object = substr($object, 0, -1);
 		$object.="]";

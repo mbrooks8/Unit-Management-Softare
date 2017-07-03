@@ -8,18 +8,18 @@
 		<ul id="tenants">
 			<li></li>
 		</ul>
-		<h3>Add tenant</h3>
+		<h3>Add apartment</h3>
 		<form id="addApartment">
 			apartment name: <input type="text" id="apartmentName"><br>
 			number of units: <input type="number" id="numUnits"><br>
 			<a id="addApartmentButton" class="button raised teal">add</a>
 		</form>
-		<h3>remove tenant</h3>
+		<h3>remove apartment</h3>
 		<form id="removeApartment">
 			apartment id: <input type="text" id="apartmentId"><br>
 			<a id="removeApartmentButton" class="button raised teal">remove</a>
 		</form>
-		<h3>tenant applications</h3>
+		<h3>generateId</h3>
 		<form id="generateId">
 			apartment id: <input type="text" id="apartmentId"><br>
 			<a id="generateIdButton" class="button raised teal">generate</a>
@@ -58,7 +58,7 @@
 					if(tenants[i].approved == 0)
 					{
 						//When approving make sure manager is the correct manager
-						output+="<li><a href=>click to approve</a></li>";
+						output+="<li><a href='#' onclick='approveTenant("+tenants[i].userId+")'>click to approve</a></li>";
 					}
 					output+="</ul></li>";
 				}
@@ -67,4 +67,16 @@
 		});
 	};
 	getTenants();
+	function approveTenant(tenantId)
+	{
+		console.log(tenantId);
+		$.ajax({
+			method: "POST",
+			url: "./database/apartments/approveTenant.php",
+			data: {tenantId:tenantId}
+		})
+			.done(function( response ) {
+			console.log(response);
+		})
+	}
 </script>
