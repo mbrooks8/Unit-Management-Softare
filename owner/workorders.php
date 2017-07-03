@@ -11,50 +11,25 @@ include("../assets/template/owner/topNav.php");
 		<div class="col s12 m12 l10">
 			<p><span class="black-text">Tenant's Workorders</span> filtered by <span class="black-text">None <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
 			<br>
-
-
-
-
-			<table class="bordered highlight hide-on-small-only">
-				<thead>
-					<tr>
-						<th style="padding-top:0;"><i class="fa fa-user" aria-hidden="true"></i> Tenant</th>
-						<th style="padding-top:0;"><i class="fa fa-briefcase" aria-hidden="true"></i> Workorder</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<h5 class="responsive-text">
-								<span class="black-text">Nicholas Sanjeev Vaishampayan</span>
-								<span style="font-size:80%;">#12</span>
-							</h5>
-							<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-								<span class="primary">
-									<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
-								</span>
-							</p>
-						</td>
-						<td>
-							<h5 class="primary responsive-text">Poop is on my walls</h5>
-						</td>
-					</tr>
-
-					<!--add this stuff-->
-				</tbody>
-			</table>
 			<style>
 				.modalItem{
 					transition: all .4s ease;
-					-webkit-filter: grayscale(25%); /* Safari */
-					filter: grayscale(25%);
+					-webkit-filter: grayscale(40%); /* Safari */
+					filter: grayscale(40%);
 				}
 				.modalItem:hover{
 					-webkit-filter: grayscale(0%); /* Safari */
 					filter: grayscale(0%);
 				}
 			</style>
-			<div class="row">
+
+
+
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header"><i class="fa fa-phone" aria-hidden="true"></i>First</div>
+					<div class="collapsible-body">
+								<div class="row">
 				<a href="#!" class="modalToggle" data-toggle="myModal">
 					<div class="col s3">
 						<img class="modalItem hoverable" src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
@@ -106,6 +81,51 @@ include("../assets/template/owner/topNav.php");
 					<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 				</div>
 			</div>
+					</div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="fa fa-phone" aria-hidden="true"></i>Second</div>
+					<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="fa fa-phone" aria-hidden="true"></i>Third</div>
+					<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				</li>
+			</ul>
+
+
+
+
+
+
+			<table class="bordered highlight hide-on-small-only">
+				<thead>
+					<tr>
+						<th style="padding-top:0;"><i class="fa fa-user" aria-hidden="true"></i> Tenant</th>
+						<th style="padding-top:0;"><i class="fa fa-briefcase" aria-hidden="true"></i> Workorder</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<h5 class="responsive-text">
+								<span class="black-text" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
+								<span style="font-size:80%;" title="unit number">#12</span>
+							</h5>
+							<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
+								<span class="primary" title="Phone Number">
+									<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+								</span>
+							</p>
+						</td>
+						<td>
+							<h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5>
+						</td>
+					</tr>
+
+					<!--add this stuff-->
+				</tbody>
+			</table>
 
 			<table class="bordered highlight hide-on-small-only">
 				<thead>

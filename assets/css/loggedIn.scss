@@ -157,7 +157,16 @@ $badge-bg-color: $error-color !default;
 $badge-height: 18px !default;
 
 // ==========================================================================
+//Collapsible
 // ==========================================================================
+$collapsible-height: 3rem !default;
+$collapsible-line-height: $collapsible-height !default;
+$collapsible-header-color: #fff !default;
+$collapsible-border-color: #ddd !default;
+
+
+
+
 // Stolen reset scss;
 @import "components/reset";
 // components;
@@ -171,6 +180,7 @@ $badge-height: 18px !default;
 @import "components/card";
 @import "components/button";
 @import "components/chip";
+@import "components/collapsible";
 @import "components/table";
 @import "components/popup";
 @import "components/tooltip";
