@@ -5,9 +5,10 @@ include("../utility/serverCheckLogin.php");
 include("../utility/serverCheckManager.php");
 
 $tenantId = $_POST["tenantId"];
+$managerId = $_SESSION["id"];
 
-$stmt = $conn->prepare("UPDATE `tenants` SET `approved`=1 WHERE userId = ?");
-$stmt->bind_param("i", $tenantId);
+$stmt = $conn->prepare("UPDATE `tenants` SET approved = 1 WHERE apartmentId IN (SELECT apartmentId FROM `apartment` where managerId = ?) AND userId = ?");
+$stmt->bind_param("ii", $managerId, $tenantId);
 
 if($stmt->execute())
 {
