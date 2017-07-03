@@ -2482,6 +2482,9 @@ small {
 .warning {
   color: #FEF200 !important; }
 
+.defaultText {
+  color: #9BA7AF; }
+
 i {
   color: black; }
 

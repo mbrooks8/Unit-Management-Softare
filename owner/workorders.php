@@ -62,7 +62,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -161,7 +161,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -259,7 +259,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -327,15 +327,15 @@ include("../assets/template/owner/topNav.php");
 		<div class="col s12 m12 l2">
 			<p class="black-text">Vendors</p>
 			<br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Resident Sleeper</span> - <span class="primary">510-656-9196</span><br> Kelvin Lewin
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Resident Sleeper</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Kelvin Lewin
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Ganja Warrior</span> - <span class="primary">510-656-9196</span><br> Bob Marley
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Ganja Warrior</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Bob Marley
 				<br><span class="">M-Su 9am - 2am</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
 		</div>
 	</div>
