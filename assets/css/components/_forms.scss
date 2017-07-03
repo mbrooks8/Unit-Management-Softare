@@ -48,6 +48,7 @@ textarea{
 	width: 100%;
 	height: $input-height;
 	background-color: transparent;
+	resize: none;
 }
 label{
 	height: $input-height;

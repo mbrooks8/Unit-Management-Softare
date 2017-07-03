@@ -3,7 +3,7 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text">Issues <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text">Workorders <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
 	<div class="row">
@@ -22,8 +22,6 @@ include("../assets/template/owner/topNav.php");
 					filter: grayscale(0%);
 				}
 			</style>
-
-
 
 			<ul class="collapsible" data-collapsible="accordion">
 				<li>
@@ -115,6 +113,7 @@ include("../assets/template/owner/topNav.php");
 						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
+						<textarea onkeyup="auto_grow(this)" placeholder="Enter your response here" required></textarea>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
 								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
@@ -213,7 +212,7 @@ include("../assets/template/owner/topNav.php");
 						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
-						<div style="margin-bottom: 20px;">
+						<div style="margin-bottom: 40px;">
 							<div class="right">
 								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
 								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
@@ -311,7 +310,7 @@ include("../assets/template/owner/topNav.php");
 						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
-						<div style="margin-bottom: 20px;">
+						<div style="margin-bottom: 40px;">
 							<div class="right">
 								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
 								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
@@ -321,7 +320,6 @@ include("../assets/template/owner/topNav.php");
 					</div>
 				</li>
 			</ul>
-			<hr class="hide-on-med-and-up">
 
 		</div>
 
