@@ -1,0 +1,21 @@
+ERROR CODES
+0 = no error
+
+QUERY
+1 = could not connect to database
+2 = malformed query
+3 = no results
+
+LOGIN
+11 = password too short
+12 = passwords do not match
+13 = username already exists
+14 = could not find username
+
+PERMISSION ERRORS
+21 = not logged include
+22 = not a manager
+23 = not a tenant
+24 = publicId does not exist
+25 = is a manager
+26 = is a tenant

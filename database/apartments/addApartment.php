@@ -1,13 +1,8 @@
 <?php
-include('./connect.php');
-
-include("./isLoggedIn.php");
-
-if($_SESSION["id"] == 0)
-{
-	echo"you are not a manager";
-	exit();
-}
+include('../utility/connect.php');
+session_start();
+include("../utility/serverCheckLogin.php");
+include("../utility/serverCheckManager.php");
 
 $apartmentName 	= $_POST["apartmentName"];
 $numUnits 		= $_POST["numUnits"];
@@ -18,10 +13,12 @@ $stmt->bind_param("siii", $apartmentName, $numUnits, $numUnits, $managerId);
 
 if($stmt->execute())
 {
-	echo 1;
+	//succesfully executed insert
+	echo 0;
 }else
 {
-	echo 0;
+	//failed to execute insert
+	echo 2;
 }
 
 mysqli_close($conn);

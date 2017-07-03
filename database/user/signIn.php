@@ -2,7 +2,7 @@
 session_start();
 ?>
 <?php
-include('./connect.php');
+include('../utility/connect.php');
 $username = $_POST["username"];
 $password = $_POST["password"];
 $stmt = $conn->prepare('SELECT password,id,type FROM `users` WHERE username = ?');
@@ -17,18 +17,17 @@ if ($myrow = $result->fetch_assoc()) {
 		$_SESSION["username"] = $username;
 		$_SESSION["id"] = $myrow['id'];
 		$_SESSION["type"] = $myrow['type'];
-		//case did log in;
 		echo 0;
 	}else
 	{
 		//case password did not match
-		echo 1;
+		echo 12;
 	}
+	mysqli_close($conn);
+	die();
 
-}else{
-	//case could not find username
-	echo 2;
 }
-
+//case could not find username
+echo 14;
 mysqli_close($conn);
 ?>
