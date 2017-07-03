@@ -36,7 +36,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -116,9 +116,9 @@ include("../assets/template/owner/topNav.php");
 						<textarea onkeyup="auto_grow(this)" placeholder="Enter your response here" required></textarea>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete" id="cube"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete" id="cube"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
@@ -135,7 +135,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -214,9 +214,9 @@ include("../assets/template/owner/topNav.php");
 						<br>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
@@ -233,7 +233,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -312,9 +312,9 @@ include("../assets/template/owner/topNav.php");
 						<br>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
