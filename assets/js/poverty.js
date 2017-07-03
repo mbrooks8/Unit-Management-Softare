@@ -229,7 +229,7 @@ carousel.testtesttest = function(currentCar){
 
       var $this = $(this);
 
-      var $panel_headers = $(this).find('> li > .collapsible-header');
+      var $panel_headers = $(this).find('> li > .collapsibleHeader');
 
       var collapsible_type = $this.data("collapsible");
 
@@ -239,7 +239,7 @@ carousel.testtesttest = function(currentCar){
 
       // Accordion Open
       function accordionOpen(object) {
-        $panel_headers = $this.find('> li > .collapsible-header');
+        $panel_headers = $this.find('> li > .collapsibleHeader');
         if (object.hasClass('active')) {
           object.parent().addClass('active');
         }
@@ -265,7 +265,7 @@ carousel.testtesttest = function(currentCar){
               complete:
                 function() {
                   $(this).css('height', '');
-                  execCallbacks($(this).siblings('.collapsible-header'));
+                  execCallbacks($(this).siblings('.collapsibleHeader'));
                 }
             });
           }
@@ -288,7 +288,7 @@ carousel.testtesttest = function(currentCar){
         }
       }
 
-      // Open collapsible. object: .collapsible-header
+      // Open collapsible. object: .collapsibleHeader
       function collapsibleOpen(object) {
         object.toggleClass('active');
 
@@ -333,7 +333,7 @@ carousel.testtesttest = function(currentCar){
        */
       function getPanelHeader(object) {
 
-        return object.closest('li > .collapsible-header');
+        return object.closest('li > .collapsibleHeader');
       }
 
       /*****  End Helper Functions  *****/
@@ -354,12 +354,12 @@ carousel.testtesttest = function(currentCar){
 
 
       // Turn off any existing event handlers
-      $this.off('click.collapse', '> li > .collapsible-header');
+      $this.off('click.collapse', '> li > .collapsibleHeader');
       $panel_headers.off('click.collapse');
 
 
       // Add click handler to only direct collapsible header children
-      $this.on('click.collapse', '> li > .collapsible-header', function(e) {
+      $this.on('click.collapse', '> li > .collapsibleHeader', function(e) {
         var element = $(e.target);
 
         if (isChildrenOfPanelHeader(element)) {

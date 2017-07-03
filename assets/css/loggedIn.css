@@ -2572,7 +2572,7 @@ body {
 .z-depth-0, .card.flat {
   box-shadow: none !important; }
 
-.z-depth-1, .sidebar, .card, .button.floating, .modalFooter ul li a.floating, .chip {
+.z-depth-1, .sidebar, .card, .button.floating, .modalFooter ul li a.floating, .chip, .collapsible {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .button.floating:hover, .modalFooter ul li a.floating:hover, .chip:hover, .editButton:hover, .submitButton:hover {
@@ -3185,6 +3185,37 @@ small {
   cursor: pointer; }
   .closebtnhover {
     color: #000; }
+
+.collapsible {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin: 0.5rem 0 1rem 0;
+  list-style: none;
+  padding: 0; }
+
+.collapsibleHeader {
+  display: block;
+  cursor: pointer;
+  min-height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd; }
+  .collapsibleHeader .collapsibleIcon {
+    width: 2rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: 1rem; }
+
+.collapsible-body {
+  display: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 2rem; }
 
 table {
   border-collapse: collapse;
