@@ -47,8 +47,14 @@ input .text{
 textarea{
 	width: 100%;
 	height: $input-height;
-
+	font-size: $input-font-size;
+	border: none;
+	border-bottom: $input-border;
+	border-color:$input-border-color;
 	resize: none;
+	&:focus{
+		outline:0;
+	}
 }
 label{
 	height: $input-height;
