@@ -164,7 +164,12 @@ $collapsible-line-height: $collapsible-height !default;
 $collapsibleHeader-color: #fff !default;
 $collapsible-border-color: #ddd !default;
 
+// Tabs
+// ==========================================================================
 
+$tabs-underline-color: $primary-color !default;
+$tabs-text-color: $primary-color-dark !default;
+$tabs-bg-color: #fff !default;
 
 
 // Stolen reset scss;
@@ -182,6 +187,7 @@ $collapsible-border-color: #ddd !default;
 @import "components/chip";
 @import "components/collapsible";
 @import "components/table";
+@import "components/tabs";
 @import "components/forms";
 @import "components/popup";
 @import "components/tooltip";

@@ -40,9 +40,9 @@
 					</li>
 
 					<li>
-						<a href="./people" title="Tenants">
+						<a href="./contacts" title="contacts">
 							<i class="fa fa-users" aria-hidden="true"></i>
-							Tenants
+							contacts
 							<span class="badge" >1</span>
 						</a>
 					</li>
@@ -118,7 +118,7 @@
 						</li>
 
 						<li>
-							<a href="./people" title="Tenants">
+							<a href="./contacts" title="contacts">
 								<i class="fa fa-users" aria-hidden="true"></i>
 								<span class="badge" >1</span>
 							</a>
@@ -163,7 +163,7 @@
 						<li><input placeholder="Search..." class="navSearch"></li>
 						<li>
 							<a href="./profile" title="My Profile">
-								<i class="fa fa-user-o" aria-hidden="true"></i>
+								<i class="fa fa-gear" aria-hidden="true"></i>
 							</a>
 						</li>
 					</ul>

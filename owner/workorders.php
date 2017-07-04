@@ -36,7 +36,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -62,7 +62,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -116,9 +116,9 @@ include("../assets/template/owner/topNav.php");
 						<textarea onkeyup="auto_grow(this)" placeholder="Enter your response here" required></textarea>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete" id="cube"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete" id="cube"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
@@ -135,7 +135,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -161,7 +161,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -214,9 +214,9 @@ include("../assets/template/owner/topNav.php");
 						<br>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
@@ -233,7 +233,7 @@ include("../assets/template/owner/topNav.php");
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
 											<span class="primary" title="Phone Number">
-												<a href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
+												<a href="tel:1-510-570-5088" style="white-space: nowrap"><i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088</a>
 											</span>
 										</p>
 									</td>
@@ -259,7 +259,7 @@ include("../assets/template/owner/topNav.php");
 							</div>
 							<div class="col s12" style="padding-left:0;">
 								<p class="responsive-text" style="font-size:100%;">9/19/2017 &bull;
-									<span class="primary">
+									<span class="primary" style="white-space:nowrap">
 										<i class="fa fa-phone" aria-hidden="true"></i> 510-570-5088
 									</span>
 								</p>
@@ -312,9 +312,9 @@ include("../assets/template/owner/topNav.php");
 						<br>
 						<div style="margin-bottom: 40px;">
 							<div class="right">
-								<div class="button raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
-								<div class="button raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
-								<div class="button raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
+								<div class="button large raised errorButton" title="Deny"><i class="fa fa-times white-text" aria-hidden="true"></i></div>
+								<div class="button large raised warningButton" title="In Progress"><i class="fa fa-hourglass white-text" aria-hidden="true"></i></div>
+								<div class="button large raised successButton" title="Complete"><i class="fa fa-check white-text" aria-hidden="true"></i></div>
 							</div>
 						</div>
 					</div>
@@ -327,15 +327,15 @@ include("../assets/template/owner/topNav.php");
 		<div class="col s12 m12 l2">
 			<p class="black-text">Vendors</p>
 			<br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Resident Sleeper</span> - <span class="primary">510-656-9196</span><br> Kelvin Lewin
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Resident Sleeper</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Kelvin Lewin
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Ganja Warrior</span> - <span class="primary">510-656-9196</span><br> Bob Marley
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Ganja Warrior</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Bob Marley
 				<br><span class="">M-Su 9am - 2am</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
-			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein
+			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
 		</div>
 	</div>

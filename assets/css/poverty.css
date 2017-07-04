@@ -2119,18 +2119,18 @@ a {
   .navContainer .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem; }
-  .navContainer .large {
+  .navContainer.large {
     width: 90%; }
 
 @media only screen and (min-width: 601px) {
   .navContainer {
     width: 80%; }
-    .navContainer .large {
+    .navContainer.large {
       width: 95%; } }
 @media only screen and (min-width: 993px) {
   .navContainer {
     width: 60%; }
-    .navContainer .large {
+    .navContainer.large {
       width: 95%; } }
 .container {
   transition: all 0.2s ease;
@@ -2139,7 +2139,7 @@ a {
   .container .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem; }
-  .container .large {
+  .container.large {
     width: 90%; }
 
 @media only screen and (min-width: 601px) {
@@ -2481,6 +2481,9 @@ small {
 
 .warning {
   color: #FEF200 !important; }
+
+.defaultText {
+  color: #9BA7AF; }
 
 i {
   color: black; }
@@ -3004,52 +3007,22 @@ small {
 .button, .modalFooter ul li a {
   display: inline-block;
   position: relative;
-  min-width: 4.5em;
-  height: 2.3em;
-  line-height: 2.4em;
+  min-width: 2.8em;
+  line-height: 2em;
   border-radius: 4px;
-  padding: 0px 1.15em;
-  font-size: 1.4em;
+  padding: 0px 1em;
+  font-size: 1em;
   background-color: transparent;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
   color: black;
   transition: all .2s ease;
-  /*text-transform: uppercase;*/
-  	/*	&:before
-  	{
-  	transition: background-color .2s ease;
-  	position: absolute;
-  	left: 0px;
-  	top: 0px;
-  	content: "";
-  	z-index: 1;
-  	height: 100%;
-  	width:100%;
-  	background-color: rgba(0,0,0,0);
-  }
-  	&:active
-  	{
-  	&:after
-  	{
-  	z-index: 1;
-  	content: "";
-  	border-radius: 50%;
-  	height: 0px;
-  	width: 0px;
-  	position: absolute;
-  	left: 50%;
-  	top: 50%;
-  	transform: translate(-50%,-50%);
-
-  	animation-name: tap;
-  	animation-duration: .4s;
-  	animation-iteration-count: 1;
-  	animation-timing-function: ease-in-out;
-  	background-color: rgba(255,255,255,.2);
-  }
-  }*/ }
+  /*text-transform: uppercase;*/ }
+  .button.large, .modalFooter ul li a.large {
+    line-height: 2.4em;
+    font-size: 1.4em;
+    padding: 0px 1em; }
   .button.round, .modalFooter ul li a.round {
     border-radius: 2.4em; }
   .button.border, .modalFooter ul li a.border {
