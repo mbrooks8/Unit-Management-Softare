@@ -2088,11 +2088,6 @@ img, video {
   max-width: 100%;
   height: auto; }
 
-a {
-  color: #00CC99;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent; }
-
 @media only screen and (max-width: 600px) {
   .hide-on-small-only {
     display: none !important; } }
@@ -2507,9 +2502,9 @@ small {
 .defaultText {
   color: #9BA7AF; }
 
-i {
-  color: #9BA7AF; }
-
+/*i{
+    color:$icon-color;
+}*/
 hr {
   height: 1px;
   overflow: hidden;
@@ -2858,7 +2853,8 @@ p {
 a {
   text-decoration: none;
   color: #00CC99;
-  transition: all .2s ease; }
+  transition: all .2s ease;
+  -webkit-tap-highlight-color: transparent; }
   a:hover {
     cursor: pointer;
     color: #2EA2FF; }
