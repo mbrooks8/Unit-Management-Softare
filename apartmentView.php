@@ -8,6 +8,10 @@
 		<ul id="tenants">
 			<li></li>
 		</ul>
+		<h3>WorkOrder list</h3>
+		<ul id="workOrder">
+			<li></li>
+		</ul>
 		<h3>Add apartment</h3>
 		<form id="addApartment">
 			apartment name: <input type="text" id="apartmentName"><br>
@@ -77,6 +81,49 @@
 		})
 			.done(function( response ) {
 			console.log(response);
+		})
+	}
+	function getWorkOrders()
+	{
+		$.ajax({
+			method: "POST",
+			url: "./database/apartments/getWorkOrders.php",
+			data: {apartmentId:apartmentId}
+		})
+			.done(function( response ) {
+			console.log(response);
+			var output = "";
+			if(response.length <= 1)
+			{
+				output = "we were unable to find any work orders";
+			}else{
+				var workOrders = JSON.parse(response);
+				for(var i = 0; i <workOrders.length;i++)
+				{
+					
+					
+					
+			/*		
+					status
+					urgency
+					completed
+					expectedCompletion
+					orderId
+					apartmentId*/
+					output+="<li>userId: "+workOrders[i].userId+"<ul>";
+					output+="<li>dateSubmitted : "+workOrders[i].dateSubmitted+"</li>";
+					output+="<li>title: "+workOrders[i].title+"</li>";
+					output+="<li>description: "+workOrders[i].description+"</li>";
+					output+="<li>status: "+workOrders[i].status+"</li>";
+					output+="<li>urgency : "+workOrders[i].urgency+"</li>";
+					output+="<li>completed: "+workOrders[i].completed+"</li>";
+					output+="<li>expectedCompletion: "+workOrders[i].expectedCompletion+"</li>";
+					output+="<li>orderId: "+workOrders[i].orderId+"</li>";
+					output+="<li>apartmentId: "+workOrders[i].apartmentId+"</li>";
+					output+="</ul></li>";
+				}
+			}
+			$("#workOrder").html(output);
 		})
 	}
 </script>
