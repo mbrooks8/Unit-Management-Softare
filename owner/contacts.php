@@ -3,7 +3,7 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text">Contacts <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="blackText">Contacts <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 
 	<div class="row">
@@ -32,7 +32,7 @@ include("../assets/template/owner/topNav.php");
 											<tr>
 												<td>
 													<h5 class="responsive-text">
-														<span class="black-text" title="Tenant Name">Nicholas Vaishampayan</span>
+														<span class="blackText" title="Tenant Name">Nicholas Vaishampayan</span>
 														<span class="defaultText" style="font-size:80%;" title="unit number">#12</span>
 													</h5>
 													<p class="responsive-text" style="font-size:100%;">
@@ -60,7 +60,7 @@ include("../assets/template/owner/topNav.php");
 											<tr>
 												<td>
 													<h5 class="responsive-text">
-														<span class="black-text" title="Tenant Name">Nicholas Vaishampayan</span>
+														<span class="blackText" title="Tenant Name">Nicholas Vaishampayan</span>
 														<span class="defaultText" style="font-size:80%;" title="unit number">#12</span>
 													</h5>
 													<p class="responsive-text" style="font-size:100%;">
@@ -88,7 +88,7 @@ include("../assets/template/owner/topNav.php");
 											<tr>
 												<td>
 													<h5 class="responsive-text">
-														<span class="black-text" title="Tenant Name">Nicholas Vaishampayan</span>
+														<span class="blackText" title="Tenant Name">Nicholas Vaishampayan</span>
 														<span class="defaultText" style="font-size:80%;" title="unit number">#12</span>
 													</h5>
 													<p class="responsive-text" style="font-size:100%;">
@@ -116,7 +116,7 @@ include("../assets/template/owner/topNav.php");
 											<tr>
 												<td>
 													<h5 class="responsive-text">
-														<span class="black-text" title="Tenant Name">Nicholas Vaishampayan</span>
+														<span class="blackText" title="Tenant Name">Nicholas Vaishampayan</span>
 														<span class="defaultText" style="font-size:80%;" title="unit number">#12</span>
 													</h5>
 													<p class="responsive-text" style="font-size:100%;">
