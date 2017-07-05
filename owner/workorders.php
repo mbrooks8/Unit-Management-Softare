@@ -3,13 +3,13 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="blackText">Workorders <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text">Workorders <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
 	<div class="row">
 		<!--tasks-->
 		<div class="col s12 m12 l10">
-			<p><span class="blackText">Tenant's Workorders</span> filtered by <span class="blackText">None <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
+			<p><span class="black-text">Tenant's Workorders</span> filtered by <span class="black-text">None <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
 			<br>
 			<style>
 				.modalItem{
@@ -31,7 +31,7 @@ include("../assets/template/owner/topNav.php");
 								<tr>
 									<td>
 										<h5 class="responsive-text">
-											<span class="blackText" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
+											<span class="black-text" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
 											<span style="font-size:80%;" title="unit number">#12</span>
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
@@ -52,7 +52,7 @@ include("../assets/template/owner/topNav.php");
 							<div class="row" style="margin:0;">
 								<div class="col s12 m4 l3" style="padding-left:0;">
 									<h5 class="responsive-text">
-										<span class="blackText">Nicholas Vaishampayan</span>
+										<span class="black-text">Nicholas Vaishampayan</span>
 										<span style="font-size:80%;">#12</span>
 									</h5>
 								</div>
@@ -109,8 +109,8 @@ include("../assets/template/owner/topNav.php");
 								</ul>
 							</div>
 						</div>
-						<h5 class="blackText">Description</h5>
-						<p class="blackText">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+						<h5 class="black-text">Description</h5>
+						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
 						<textarea onkeyup="auto_grow(this)" placeholder="Enter your response here" required></textarea>
@@ -130,7 +130,7 @@ include("../assets/template/owner/topNav.php");
 								<tr>
 									<td>
 										<h5 class="responsive-text">
-											<span class="blackText" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
+											<span class="black-text" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
 											<span style="font-size:80%;" title="unit number">#12</span>
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
@@ -151,7 +151,7 @@ include("../assets/template/owner/topNav.php");
 							<div class="row" style="margin:0;">
 								<div class="col s12 m4 l3" style="padding-left:0;">
 									<h5 class="responsive-text">
-										<span class="blackText">Nicholas Vaishampayan</span>
+										<span class="black-text">Nicholas Vaishampayan</span>
 										<span style="font-size:80%;">#12</span>
 									</h5>
 								</div>
@@ -208,8 +208,8 @@ include("../assets/template/owner/topNav.php");
 								</ul>
 							</div>
 						</div>
-						<h5 class="blackText">Description</h5>
-						<p class="blackText">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+						<h5 class="black-text">Description</h5>
+						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
 						<div style="margin-bottom: 40px;">
@@ -228,7 +228,7 @@ include("../assets/template/owner/topNav.php");
 								<tr>
 									<td>
 										<h5 class="responsive-text">
-											<span class="blackText" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
+											<span class="black-text" title="Tenant Name">Nicholas Sanjeev Vaishampayan</span>
 											<span style="font-size:80%;" title="unit number">#12</span>
 										</h5>
 										<p class="responsive-text" style="font-size:100%;" title="Date Submitted">9/19/2017 &bull;
@@ -249,7 +249,7 @@ include("../assets/template/owner/topNav.php");
 							<div class="row" style="margin:0;">
 								<div class="col s12 m4 l3" style="padding-left:0;">
 									<h5 class="responsive-text">
-										<span class="blackText">Nicholas Vaishampayan</span>
+										<span class="black-text">Nicholas Vaishampayan</span>
 										<span style="font-size:80%;">#12</span>
 									</h5>
 								</div>
@@ -306,8 +306,8 @@ include("../assets/template/owner/topNav.php");
 								</ul>
 							</div>
 						</div>
-						<h5 class="blackText">Description</h5>
-						<p class="blackText">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+						<h5 class="black-text">Description</h5>
+						<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 
 						<br>
 						<div style="margin-bottom: 40px;">
@@ -325,7 +325,7 @@ include("../assets/template/owner/topNav.php");
 
 
 		<div class="col s12 m12 l2">
-			<p class="blackText">Vendors</p>
+			<p class="black-text">Vendors</p>
 			<br>
 			<p style="font-size:100%;"><span class="primary" style="white-space:nowrap">Fertilizer Specilist</span> - <span class="primary" style="white-space:nowrap">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>

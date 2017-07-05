@@ -3,13 +3,13 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="blackText">Issues <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text">Issues <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
 	<div class="row">
 		<!--tasks-->
 		<div class="col s12 m8">
-			<p class="blackText">Tenant's Issues</p>
+			<p class="black-text">Tenant's Issues</p>
 			<br>
 			<!--this thing-->
 			<div class="row" style="margin:0; margin-bottom:20px;">
@@ -60,7 +60,7 @@ include("../assets/template/owner/topNav.php");
 		</div>
 
 		<div class="col s12 m12 l2">
-			<p class="blackText">Vendors</p>
+			<p class="black-text">Vendors</p>
 			<br>
 			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>

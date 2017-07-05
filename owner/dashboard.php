@@ -3,14 +3,14 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="blackText">Dashboard<span class="right">6/30/2016<span class="hide-on-small-only"> &bull; 23:38</span></span></h5>
+	<h5 class="black-text">Dashboard<span class="right">6/30/2016<span class="hide-on-small-only"> &bull; 23:38</span></span></h5>
 	<br class="hide-on-small-only">
 
 	<br>
 	<div class="row">
 		<!--Vendors-->
 		<div class="col s12 m12 l2">
-			<p class="blackText">Vendors</p>
+			<p class="black-text">Vendors</p>
 			<br>
 			<p style="font-size:100%;"><span class="primary">Fertilizer Specilist</span> - <span class="primary">510-656-9196</span><br> Armando Hussein - Company Name
 				<br><span class="error">M-F 9am - 5pm</span></p><br>
@@ -26,7 +26,7 @@ include("../assets/template/owner/topNav.php");
 
 		<!--activity-->
 		<div class="col s12 m12 l8">
-			<p>Displaying <span class="blackText">all activity <i class="fa fa-angle-down" aria-hidden="true"></i></span> by <span class="blackText">Date <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
+			<p>Displaying <span class="black-text">all activity <i class="fa fa-angle-down" aria-hidden="true"></i></span> by <span class="black-text">Date <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
 			<br>
 			<div class="row">
 				<div class="col s9 m10">
@@ -97,7 +97,7 @@ include("../assets/template/owner/topNav.php");
 <p class="hide-on-large-only">&nbsp;</p>
 		<!--tasks-->
 		<div class="col s12 m6 l2">
-			<p class="blackText">My Tasks</p>
+			<p class="black-text">My Tasks</p>
 			<br>
 			<!--this thing-->
 			<div class="row" style="margin:0; margin-bottom:20px;">
@@ -147,7 +147,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 
 
-			<p class="blackText">My Upcomming Appointments</p>
+			<p class="black-text">My Upcomming Appointments</p>
 			<br>
 			<p style="font-size:100%;">There is stuff that goes here</p><br>
 			<p style="font-size:100%;">There is stuff that goes here</p><br>
