@@ -9,9 +9,13 @@ nav {
 	z-index:997;
 	overflow: hidden;
 	width: 100%;
+	.button{
+		font-size:$nav-text-size;
+	}
 	//Logo
 	.logo{
-		position:absolute;
+		/*position:absolute;*/
+		float:left;
 		color: $nav-text-color;
 		display: inline-block;
 		padding: 0;
@@ -31,8 +35,8 @@ nav {
 		}
 
 		@media #{$medium-and-down} {
-			left: 50%;
-			transform: translateX(-50%);
+			/*			left: 50%;
+			transform: translateX(-50%);*/
 
 			&.left, &.right {
 				padding: 0;
@@ -54,7 +58,7 @@ nav {
 	ul{
 		margin:0px;
 		float:right;
-
+		padding-left:30px;
 		li{
 			height: 64px;
 			display: flex;
@@ -100,57 +104,57 @@ nav {
 		position:fixed;
 	}
 	//Loader
-	&:before{
-		z-index: -1;
-		position: absolute;
-		content: '';
-		height: 10px;
-		width: 0%;
-		top:64px;
-		right: 100%;
-		animation-name: loaderbefore;
-		animation-duration: 4s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-		background-color: red;
-	}
+	/*	&:before{
+	z-index: -1;
+	position: absolute;
+	content: '';
+	height: 10px;
+	width: 0%;
+	top:64px;
+	right: 100%;
+	animation-name: loaderbefore;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-color: red;
+}
 	&:after{
-		z-index: -1;
-		position: absolute;
-		content: '';
-		height: 10px;
-		width: 0%;
-		top:64px;
-		right: 100%;
-		animation-name: loaderbefore;
-		animation-duration: 4s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-		background-color: red;
-		animation-delay: 2s;
-	}
+	z-index: -1;
+	position: absolute;
+	content: '';
+	height: 10px;
+	width: 0%;
+	top:64px;
+	right: 100%;
+	animation-name: loaderbefore;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-color: red;
+	animation-delay: 2s;
+}
 	@keyframes loaderbefore {
-		0%
-		{
-			right:100%;
-			width: 25%;
-		}
-		50%
-		{
-			right:100%;
-			width: 25%;
-		}
-		83.33%
-		{
-			right:0%;
-			width: 50%;
-		}
-		100%
-		{
-			width:0%;
-			right:0%;
-		}
-	}
+	0%
+	{
+	right:100%;
+	width: 25%;
+}
+	50%
+	{
+	right:100%;
+	width: 25%;
+}
+	83.33%
+	{
+	right:0%;
+	width: 50%;
+}
+	100%
+	{
+	width:0%;
+	right:0%;
+}
+}*/
 }
 
 //Side nav

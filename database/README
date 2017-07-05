@@ -19,3 +19,4 @@ PERMISSION ERRORS
 24 = publicId does not exist
 25 = is a manager
 26 = is a tenant
+27 = not approved

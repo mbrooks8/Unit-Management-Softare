@@ -100,16 +100,6 @@
 				var workOrders = JSON.parse(response);
 				for(var i = 0; i <workOrders.length;i++)
 				{
-					
-					
-					
-			/*		
-					status
-					urgency
-					completed
-					expectedCompletion
-					orderId
-					apartmentId*/
 					output+="<li>userId: "+workOrders[i].userId+"<ul>";
 					output+="<li>dateSubmitted : "+workOrders[i].dateSubmitted+"</li>";
 					output+="<li>title: "+workOrders[i].title+"</li>";
