@@ -1,19 +1,20 @@
 <?php
-include('./connect.php');
+include('../utility/connect.php');
+session_start();
+include("../utility/serverCheckLogin.php");
+include("../utility/serverCheckManager.php");
 $apartmentId 	= $_POST["apartmentId"];
-$managerId 		= $_POST["managerId"];
+$managerId 		= $_SESSION['id'];
 
 $stmt = $conn->prepare("DELETE FROM `apartment` Where managerId = ? and apartmentId = ?");
 $stmt->bind_param("ii", $managerId, $apartmentId);
 
 if($stmt->execute())
 {
-	echo "successfully deleted";
-	echo 1;
+	echo 0;
 }else
 {
-	echo "could not deleted";
-	echo 0;
+	echo 2;
 }
 
 mysqli_close($conn);
