@@ -9,7 +9,7 @@ include("../assets/template/owner/topNav.php");
 
 	<div class="row">
 		<div class="col s12 m12 l3">
-			<h5><span class="black-text">Nicholas</span> <span>#12</span></h5>
+			<h5><span class="black-text">Nicholas Vaishampayan</span> <span>#12</span></h5>
 			<h5 class="black-text">Phone</h5>
 			<a title="Phone Number" href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-579-5088</a>
 			<br>
