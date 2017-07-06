@@ -1,0 +1,26 @@
+// Badges
+span.badge {
+	min-width: 1rem;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: $badge-height;
+	height: $badge-height;
+	float: right;
+	box-sizing: border-box;
+	background-color: $badge-bg-color;
+	border-radius: 2px;
+	color: #fff;
+	padding:0 2px;
+	z-index:1;
+
+	&[badgeText]::after {
+		content: " " attr(badgeText);
+	}
+}
+nav ul a span.badge {
+	display: inline-block;
+	margin-left:-5px;
+	position:relative;
+	margin-top: calc(#{$nav-height / 2} - #{$badge-height});
+
+}

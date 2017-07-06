@@ -16,7 +16,7 @@
 	color: $placeholder-text-color;
 }
 
-input{
+input .text{
 	background-color: transparent;
 	border: none;
 	width:100%;
@@ -47,7 +47,14 @@ input{
 textarea{
 	width: 100%;
 	height: $input-height;
-	background-color: transparent;
+	font-size: $input-font-size;
+	border: none;
+	border-bottom: $input-border;
+	border-color:$input-border-color;
+	resize: none;
+	&:focus{
+		outline:0;
+	}
 }
 label{
 	height: $input-height;

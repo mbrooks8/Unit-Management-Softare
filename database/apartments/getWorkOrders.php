@@ -40,6 +40,5 @@ if($_SESSION['type'] == 1)
 	echo $object;
 }
 
-
 mysqli_close($conn);
 ?>

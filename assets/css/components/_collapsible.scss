@@ -1,0 +1,33 @@
+.collapsible {
+	border-top: 1px solid $collapsible-border-color;
+	margin: $element-top-margin 0 $element-bottom-margin 0;
+	list-style: none;
+	padding:0;
+}
+
+.collapsibleHeader {
+	display: block;
+	cursor: pointer;
+	min-height: $collapsible-height;
+	line-height: $collapsible-line-height;
+	padding: 0 1rem;
+	background-color: $collapsibleHeader-color;
+	border-bottom: 1px solid $collapsible-border-color;
+
+	.collapsibleIcon {
+		width: 2rem;
+		font-size: 1.6rem;
+		line-height: $collapsible-line-height;
+		display: block;
+		float: left;
+		text-align: center;
+		margin-right: 1rem;
+	}
+}
+
+.collapsible-body {
+	display: none;
+	border-bottom: 1px solid $collapsible-border-color;
+	box-sizing: border-box;
+	padding: 2rem;
+}

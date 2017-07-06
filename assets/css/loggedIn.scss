@@ -20,7 +20,7 @@ $secondary-color: #2EA2FF !default;
 $accent-color: #43D4FF !default;
 $success-color: #00CC99 !default;
 $error-color: #EF4B23 !default;
-$warning-color: #FEF200 !default;
+$warning-color: #F0AD4E !default;
 $link-color: $primary-color !default;
 
 $primary-text-color: #9BA7AF !default;
@@ -61,15 +61,15 @@ $h6-fontsize: 1.2rem !default;
 // ==========================================================================
 //NavBar
 // ==========================================================================
+//Top Nav
 $nav-height:64px !default;
-$nav-color:#FFFFFF;
-$nav-text-color:#94A0A9 !default;
-$nav-text-color-dark:#000000 !default;
-$nav-text-size: 1rem !default;
-$nav-logo-text-size: 1.8rem !default;
-// ==========================================================================
-//SideNavBar
-// ==========================================================================
+$nav-color:#333333;
+$nav-text-color:#FFFFFF !default;
+$nav-text-color-dark:#39C7A9 !default;
+$nav-text-size: 1.3rem !default;
+$nav-logo-text-size: 1rem !default;
+
+//Side Nav
 $side-width:245px;
 $side-color:$nav-color;
 // ==========================================================================
@@ -136,10 +136,11 @@ $label-font-size: .8rem !default;
 $input-invalid-border: 1px solid $input-error-color !default;
 $placeholder-text-color: lighten($input-border-color, 20%) !default;
 // ==========================================================================
-// ==========================================================================
 // Icons
 // ==========================================================================
- $icon-color: black;
+
+$icon-color: $primary-text-color;
+
 // ==========================================================================
 // Responsive-img
 // ==========================================================================
@@ -147,13 +148,35 @@ $placeholder-text-color: lighten($input-border-color, 20%) !default;
 $range : $large-screen - $small-screen !default;
 $intervals: 20 !default;
 $interval-size: $range / $intervals !default;
+
 // ==========================================================================
+// Badges
 // ==========================================================================
+
+$badge-bg-color: $error-color !default;
+$badge-height: 18px !default;
+
 // ==========================================================================
+//Collapsible
 // ==========================================================================
+$collapsible-height: 3rem !default;
+$collapsible-line-height: $collapsible-height !default;
+$collapsibleHeader-color: #fff !default;
+$collapsible-border-color: #ddd !default;
+
+// Tabs
+// ==========================================================================
+
+$tabs-underline-color: $primary-color !default;
+$tabs-text-color: $primary-color-dark !default;
+$tabs-bg-color: #fff !default;
+
+
 // Stolen reset scss;
 @import "components/reset";
 // components;
+
+@import "components/badge";
 @import "components/banner";
 @import "components/template";
 @import "components/utility";
@@ -162,7 +185,10 @@ $interval-size: $range / $intervals !default;
 @import "components/card";
 @import "components/button";
 @import "components/chip";
+@import "components/collapsible";
 @import "components/table";
+@import "components/tabs";
+@import "components/forms";
 @import "components/popup";
 @import "components/tooltip";
 @import "components/editable";

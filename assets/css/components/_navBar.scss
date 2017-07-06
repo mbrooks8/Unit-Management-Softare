@@ -24,9 +24,10 @@ nav {
 		font-size:$nav-logo-text-size;
 
 		img{
-			max-height:$nav-height;
-			padding-top:10px;
-			padding-bottom:10px;
+			max-height:54px;
+			padding-top: 18px;
+			padding-bottom: 10px;
+			padding-left: 20px;
 		}
 
 		&.center {
@@ -55,10 +56,22 @@ nav {
 			padding: 0;
 		}
 	}
+	@media #{$medium-and-up} {
+		ul{
+			padding-left:30px;
+		}
+
+	}
+	@media #{$large-and-up} {
+		ul{
+			padding-left:30px;
+		}
+
+	}
 	ul{
 		margin:0px;
 		float:right;
-		padding-left:30px;
+		padding-left:0px;
 		li{
 			height: 64px;
 			display: flex;
@@ -81,9 +94,17 @@ nav {
 			display: block;
 			padding: 0 15px;
 			cursor: pointer;
-
+			&:active{
+				color: $nav-text-color-dark;
+			}
 			&:hover {
 				color: $nav-text-color-dark;
+			}
+			i{
+				color: $nav-text-color;
+				&:hover {
+					color: $nav-text-color-dark;
+				}
 			}
 		}
 
@@ -103,58 +124,7 @@ nav {
 		background-color:$nav-color;
 		position:fixed;
 	}
-	//Loader
-	/*	&:before{
-	z-index: -1;
-	position: absolute;
-	content: '';
-	height: 10px;
-	width: 0%;
-	top:64px;
-	right: 100%;
-	animation-name: loaderbefore;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	background-color: red;
-}
-	&:after{
-	z-index: -1;
-	position: absolute;
-	content: '';
-	height: 10px;
-	width: 0%;
-	top:64px;
-	right: 100%;
-	animation-name: loaderbefore;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	background-color: red;
-	animation-delay: 2s;
-}
-	@keyframes loaderbefore {
-	0%
-	{
-	right:100%;
-	width: 25%;
-}
-	50%
-	{
-	right:100%;
-	width: 25%;
-}
-	83.33%
-	{
-	right:0%;
-	width: 50%;
-}
-	100%
-	{
-	width:0%;
-	right:0%;
-}
-}*/
+
 }
 
 //Side nav

@@ -41,14 +41,12 @@ p{
 	font-size:1.2em;
 }
 
-h1,h2,h3,h4,h5,h6{
-	text-transform: uppercase;
-
-}
 a {
 	text-decoration: none;
 	color:$link-color;
 	transition: all .2s ease;
+	// Gets rid of tap active state
+	-webkit-tap-highlight-color: transparent;
 	&:hover{
 		cursor: pointer;
 		color:$secondary-color;
