@@ -58,7 +58,7 @@ include("../assets/template/owner/topNav.php");
 			</div>
 		</div>
 		<div class="col s12 l7">
-			<h5 class="black-text">Description</h5>
+			<h5>Description</h5>
 			<p class="black-text">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
 			<div class="row">
 				<div class="col s12">
@@ -126,9 +126,32 @@ include("../assets/template/owner/topNav.php");
 			</div>
 		</div>
 		<div class="col s12 m12 l2">
+		<style>
+			.messageSender{
+				background-color:rgba(0,0,0,.5);
+				margin-left:10%;
+				border-radius:8px;
+				margin-bottom:10px;
+				padding-right:10px;
+			}
+			.messageReciever{
+				background-color:rgba(0,0,0,.5);
+				margin-right:10%;
+				border-radius:8px;
+				margin-bottom:10px;
+				padding-left:10px;
+			}
+			</style>
+			<h5>Messages</h5>
+			<p align="right" class="black-text messageSender" style="font-size:100%;">I'm not supposed to deal with your poop</p>
+			<p class="black-text messageReciever" style="font-size:100%;">Please boss</p>
+			<p align="right" class="black-text messageSender" style="font-size:100%;">No</p>
 			<h5>Notes</h5>
-			<p class="black-text">This guy may be a terrorist</p>
-			<p class="black-text">Be careful</p>
+			<ul class="black-text">
+				<li>This guy may be a terrorist</li>
+				<li>test</li>
+				<li>Be careful</li>
+			</ul>
 		</div>
 	</div>
 </div>
