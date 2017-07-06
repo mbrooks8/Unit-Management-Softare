@@ -110,10 +110,46 @@
 					output+="<li>expectedCompletion: "+workOrders[i].expectedCompletion+"</li>";
 					output+="<li>orderId: "+workOrders[i].orderId+"</li>";
 					output+="<li>apartmentId: "+workOrders[i].apartmentId+"</li>";
+					output+="<li><a onclick='getWorkMessages("+workOrders[i].orderId+")'>click me to view Messages:</a></li>";
+					output+="<li><a onclick='sendMessageToTenant("+workOrders[i].orderId+")'>send message</a><input type='text' id='sendMessage"+workOrders[i].orderId+"'></li>";
+					output+="<li id='workMessages"+workOrders[i].orderId+"'></li>";
 					output+="</ul></li>";
 				}
 			}
 			$("#workOrder").html(output);
+		})
+	}
+	getWorkOrders()
+	function sendMessageToTenant(workOrderId)
+	{
+		console.log(workOrderId);
+		console.log($("#sendMessage"+workOrderId).val());
+		$.ajax({
+			method: "POST",
+			url: "./database/apartments/newWorkMessage.php",
+			data: {orderId:workOrderId,message:$("#sendMessage"+workOrderId).val()}
+		})
+			.done(function( response ) {
+			console.log(response);
+		})
+	}
+	function getWorkMessages(orderId)
+	{
+		$.ajax({
+			method: "POST",
+			url: "./database/apartments/getWorkMessages.php",
+			data: {orderId:orderId}
+		})
+			.done(function( response ) {
+			var output = "";
+			if(response.length <= 1)
+			{
+				output = "we were unable to find any messages";
+				$("#workMessages"+orderId).html(output);
+			}else{
+				console.log(response);
+				$("#workMessages"+orderId).html(response);
+			}
 		})
 	}
 </script>
