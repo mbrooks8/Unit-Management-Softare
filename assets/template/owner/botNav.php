@@ -37,6 +37,14 @@
 <script src="../assets/js/fontChange.js" crossorigin="anonymous"></script>
 <script src="../assets/js/poverty.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<!--Tinymce is a TinyMCE is a platform independent web-based JavaScript HTML WYSIWYG
+editor control released as open source under LGPL.-->
+ <script src="https://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+  <script>
+            CKEDITOR.replace( 'editor1' );
+	     CKEDITOR.replace( 'editor2' );
+        </script>
+
 <script>
 	$( document ).ready(function() {
 		initModal();

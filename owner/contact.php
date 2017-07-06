@@ -3,7 +3,7 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text"><span><a href="contacts.php">Contact</a></span><span> / <i class="fa fa-user" aria-hidden="true"></i> Nicholas Vaishampayan</span><span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text"><span><a href="contacts.php">Contacts</a></span><span> / <i class="fa fa-user" aria-hidden="true"></i> Nicholas Vaishampayan</span><span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 	<br>
 
@@ -24,40 +24,63 @@ include("../assets/template/owner/topNav.php");
 			<hr>
 			<div class="button raised" title="Edit Person"><i class="fa fa-pencil" aria-hidden="true"></i> Edit Person</div>
 		</div>
-		<div class="col s12 m8">
+		<div class="col s12 l7">
 			<div class="row">
 				<div class="col s12">
-					<p>add note / send email tabs</p>
-					<p>activity feed for htat person calls, chats, problems</p>
 					<div class="col s12" style="padding-bottom:20px;">
 						<ul class="tabs" style="padding:0;">
-							<li class="tab col s3" title="Add A Note"><a class="active" href="#note"><i class="fa fa-sticky-note" aria-hidden="true"></i> Add A Note</a></li>
-							<li class="tab col s3" title="Send An Email"><a href="#email"><i class="fa fa-envelope" aria-hidden="true"></i> Send Message</a></li>
+							<li class="tab col s3 m6 l4" title="Add A Note"><a class="active" href="#note"><i class="fa fa-sticky-note" aria-hidden="true"></i> Add A Note</a></li>
+							<li class="tab col s3 m6 l5" title="Send A Message"><a href="#email"><i class="fa fa-envelope" aria-hidden="true"></i> Send Message</a></li>
 						</ul>
 					</div>
 
 
 					<div id="note" class="col s12">
-
-						Notes about the person goes here
+						<textarea name="editor1" onkeyup="auto_grow(this)" placeholder="Add a note about this person" required></textarea>
 
 					</div>
 
 					<div id="email" class="col s12">
-
-
-						Email / message chain goes here
+						<textarea name="editor2" onkeyup="auto_grow(this)" placeholder="Send an email to this person" required></textarea>
 
 					</div>
 				</div>
 				<div class="col s12">
-<p>Displaying <span class="primary">all activity <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
+					<br>
+					<p>Displaying <span class="primary">all activity <i class="fa fa-angle-down" aria-hidden="true"></i></span></p>
+					<ul class="collapsible" data-collapsible="accordion">
+						<a href="workorders.php">
+							<li>
+								<div class="collapsibleHeader">
+									<table class="highlight">
+										<tbody>
+											<tr>
+												<td>
+													<h5 class="responsive-text">
+														<span class="black-text" title="Activity">Submitted a workorder</span>
+
+															<span title="Date" class="defaultText right" style="font-size:80%;">7/6/2017</span>
+													</h5>
+
+													<p class="responsive-text black-text" style="font-size:120%;">
+													Work order text goes here
+
+													</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</li>
+						</a>
+					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="col s12 m1">
-			Documents
-			notes
+		<div class="col s12 m12 l2">
+		<h5>Notes</h5>
+		<p class="black-text">This guy may be a terrorist</p>
+		<p class="black-text">Be careful</p>
 		</div>
 	</div>
 </div>
