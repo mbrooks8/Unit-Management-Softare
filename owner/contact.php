@@ -9,7 +9,7 @@ include("../assets/template/owner/topNav.php");
 
 	<div class="row">
 		<div class="col s12 m12 l3">
-			<h5><span class="black-text">Nicholas</span> <span>#12</span></h5>
+			<h5><span class="black-text">Nicholas Vaishampayan</span> <span>#12</span></h5>
 			<h5 class="black-text">Phone</h5>
 			<a title="Phone Number" href="tel:1-510-570-5088"><i class="fa fa-phone" aria-hidden="true"></i> 510-579-5088</a>
 			<br>
@@ -29,8 +29,9 @@ include("../assets/template/owner/topNav.php");
 				<div class="col s12">
 					<div class="col s12" style="padding-bottom:20px;">
 						<ul class="tabs" style="padding:0;">
-							<li class="tab col s3 m6 l4" title="Add A Note"><a class="active" href="#note"><i class="fa fa-sticky-note" aria-hidden="true"></i> Add A Note</a></li>
-							<li class="tab col s3 m6 l5" title="Send A Message"><a href="#email"><i class="fa fa-envelope" aria-hidden="true"></i> Send Message</a></li>
+							<li class="tab col s3 m6 l5" title="Send A Message"><a class="active" href="#email"><i class="fa fa-envelope" aria-hidden="true"></i> Send Message</a></li>
+							<li class="tab col s3 m6 l4" title="Add A Note"><a  href="#note"><i class="fa fa-sticky-note" aria-hidden="true"></i> Add A Note</a></li>
+
 						</ul>
 					</div>
 
@@ -59,11 +60,11 @@ include("../assets/template/owner/topNav.php");
 													<h5 class="responsive-text">
 														<span class="black-text" title="Activity">Submitted a workorder</span>
 
-															<span title="Date" class="defaultText right" style="font-size:80%;">7/6/2017</span>
+														<span title="Date" class="defaultText right" style="font-size:80%;">7/6/2017</span>
 													</h5>
 
 													<p class="responsive-text black-text" style="font-size:120%;">
-													Work order text goes here
+														Work order text goes here
 
 													</p>
 												</td>
@@ -78,9 +79,9 @@ include("../assets/template/owner/topNav.php");
 			</div>
 		</div>
 		<div class="col s12 m12 l2">
-		<h5>Notes</h5>
-		<p class="black-text">This guy may be a terrorist</p>
-		<p class="black-text">Be careful</p>
+			<h5>Notes</h5>
+			<p class="black-text">This guy may be a terrorist</p>
+			<p class="black-text">Be careful</p>
 		</div>
 	</div>
 </div>

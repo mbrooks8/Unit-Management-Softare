@@ -41,7 +41,7 @@ include("../assets/template/owner/topNav.php");
 										</p>
 									</td>
 									<td>
-										<h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5>
+										<a href="./workorder"><h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5></a>
 									</td>
 								</tr>
 
@@ -140,7 +140,7 @@ include("../assets/template/owner/topNav.php");
 										</p>
 									</td>
 									<td>
-										<h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5>
+										<a href="./workorder"><h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5></a>
 									</td>
 								</tr>
 
@@ -238,7 +238,7 @@ include("../assets/template/owner/topNav.php");
 										</p>
 									</td>
 									<td>
-										<h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5>
+										<a href="./workorder"><h5 class="primary responsive-text" title="Work Order">Poop is on my walls</h5></a>
 									</td>
 								</tr>
 
