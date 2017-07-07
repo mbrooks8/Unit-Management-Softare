@@ -194,6 +194,9 @@ img,video{
 			}
 			$i: $i + 1;
 		}
+		&.noGutter{
+			padding: 0;
+		}
 
 		@media #{$medium-and-up} {
 

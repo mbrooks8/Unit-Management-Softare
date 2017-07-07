@@ -2244,6 +2244,8 @@ img, video {
       margin-left: 91.66667%; }
     .row .col.offset-s12 {
       margin-left: 100%; }
+    .row .col.noGutter {
+      padding: 0; }
     @media only screen and (min-width: 601px) {
       .row .col.m1 {
         width: 8.33333%;

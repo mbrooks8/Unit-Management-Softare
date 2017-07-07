@@ -3,7 +3,7 @@ include("../assets/template/owner/topNav.php");
 ?>
 <br>
 <div class="container large">
-	<h5 class="black-text">Contacts <span class="right">6/30/2016 &bull; 23:38</span></h5>
+	<h5 class="black-text">Applications <span class="right">6/30/2016 &bull; 23:38</span></h5>
 	<br>
 
 	<div class="row">
@@ -12,17 +12,14 @@ include("../assets/template/owner/topNav.php");
 			<div class="row">
 				<div class="col s12 noGutter" style="padding-bottom:20px;">
 					<ul class="tabs" style="padding:0;">
-						<li class="tab col s3"><a class="active" href="#allContacts">All Contacts</a></li>
+						<li class="tab col s3"><a class="active" href="#vacancies">Vacancies</a></li>
 						<li class="tab col s3"><a href="#tenants">Tenants</a></li>
-						<li class="tab col s3"><a href="#vendors">Vendors</a></li>
+						<li class="tab col s3"><a href="#applications">applications</a></li>
+
 					</ul>
 				</div>
-				<div class="button raised successButton" title="Add A Contact"><i class="fa fa-plus white-text" aria-hidden="true"></i> Add</div>
-				<div class="button raised successButton" title="Import Contacts"><i class="fa fa-download white-text" aria-hidden="true"></i> Import</div>
-				<div class="button raised successButton" title="Import Contacts"><i class="fa fa-search white-text" aria-hidden="true"></i> Search</div>
-
-
-				<div id="allContacts" class="col s12 noGutter">
+				<div id="vacancies" class="col s12 noGutter">
+					<div class="button raised successButton" title="Add A Vacancy"><i class="fa fa-plus white-text" aria-hidden="true"></i> Add A Vacancy</div>
 					<ul class="collapsible" data-collapsible="accordion">
 						<a href="contact.php">
 
